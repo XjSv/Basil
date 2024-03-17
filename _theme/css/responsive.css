@@ -1,0 +1,115 @@
+@media screen and ( max-width:1260px ){
+    #basil-slider .basil-slider-slides { max-width:720px; }
+}
+
+@media screen and ( max-width:1100px ){
+    #basil-nav { float:none; display:block; width:100%; }
+    #basil-nav > div > ul { width:100%; text-align:center; }
+    #basil-nav > div > ul > li { display:inline-block; float:none; }
+    #basil-nav-wrapper .basil-right { display:none; }
+}
+
+@media screen and ( max-width: 960px ) {
+
+    #basil-header-wrapper .basil-header-right .basil-header-right-content { right:3rem; }
+    #basil-nav-wrapper { display:none; }
+    .basil-mobile-nav { display:block; }
+    .bx-nav-collapse > ul { margin:0; padding:10px 0; width:100%; display:block; list-style:none; }
+    .bx-nav-collapse li { width:100%; display:block; }
+    .js .bx-nav-collapse { clip: rect(0 0 0 0); max-height: 0; position: absolute; display: block; overflow: hidden; zoom: 1; }
+    .bx-nav-collapse.opened { max-height: 9999px; }
+    .nav-toggle { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
+
+    #basil-slider .basil-slider-title,
+    #basil-slider .basil-slider-subheading { max-width:80%; }
+    #basil-slider .basil-slider-slides { max-width:340px; }
+
+    .basil-column-content-widget .basil-shell { flex-wrap:wrap; }
+    .basil-column-content-widget .basil-column-content-column { width:100%; margin:0 0 2rem; }
+    .basil-column-content-widget .basil-column-content-column:last-child { margin:0; }
+
+    .basil-blog-posts-widget .basil-shell { flex-wrap:wrap; }
+    .basil-blog-posts-widget .basil-blog-posts-single { width:100%; margin:0 0 2rem; }
+    .basil-blog-posts-widget .basil-blog-posts-single:last-child { margin:0; }
+
+    #basil-footer .basil-footer-widgets { flex-wrap:wrap; }
+    #basil-footer .basil-footer-widgets .basil-footer-widget-block { width:100%; margin:0 0 2rem; }
+    #basil-footer .basil-footer-widgets .basil-footer-widget-block:last-child { margin:0; }
+
+    #basil-footer .basil-left, #basil-footer .basil-right { float:none; width:100%; text-align:center; margin:0; }
+    #basil-footer .basil-right { margin-top:-1.5rem; }
+    #basil-footer .bx-social-icon { display:inline-block; float:none; }
+    #basil-footer .bx-social-icon:first-child { margin-left:0; }
+    #basil-footer .bx-social-icon:last-child { margin-right:0; }
+
+    body #basil-slider .basil-slider-title { padding-top:40px; }
+    body #basil-slider .basil-slider-slides .slick-slide { margin:50px 20px; }
+
+	aside.basil-sidebar,
+	section.basil-main-template.basil-has-sidebar {
+		float:none;
+		width:100%;
+	}
+
+    .basil-shell { width:90%; }
+
+}
+
+@media screen and (min-width: 961px) {
+    .js .bx-nav-collapse {
+        position: relative;
+    }
+    .js .bx-nav-collapse.closed {
+        max-height: none;
+    }
+    .nav-toggle {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 650px ) {
+
+    #basil-header-wrapper .basil-header-right .basil-header-right-content { display:flex; height:0; overflow:hidden; opacity:0; right:auto; width:100%; left:0; top:100%; margin-top:10px; z-index:10000; }
+    #basil-header-wrapper .basil-header-right-content .basil-search-cooked,
+    #basil-header-wrapper .basil-header-right-content .basil-search-wordpress { margin:0; width:100%; }
+    #basil-header-wrapper .basil-header-right-content > div { min-width:100px; }
+    #basil-header-wrapper .basil-header-right-content > div:first-child { margin-left:0; }
+    #basil-header-wrapper .basil-header-right-content > div a.bx-button { width:100%; text-align:center; }
+
+    body.basil-header-has-search .bx-nav-collapse ul:first-child,
+    body.basil-header-has-buttons .bx-nav-collapse ul:first-child { padding-top:calc( 2.4rem + 30px ); }
+    html.js-nav-active #basil-header-wrapper .basil-header-right .basil-header-right-content { height:calc( 2.4rem + 30px ); opacity:1; }
+
+    .basil-shell { width:85%; }
+    .nav-toggle { right:7.5%; }
+    .basil-mobile-nav > li a { padding:10px 7.5%; }
+
+    #basil-header-wrapper .basil-header-right .basil-header-right-content {
+        transition: height 250ms cubic-bezier(0.615, 0.000, 0.240, 1.000), opacity 250ms cubic-bezier(0.615, 0.000, 0.240, 1.000);
+    }
+
+}
+
+@media screen and ( max-width: 450px ) {
+
+    #basil-header-wrapper .basil-header-right-content > div { min-width:100%; margin:5px 0 0 0; }
+    #basil-header-wrapper .basil-header-right-content .cooked-browse-search-button { right:0; }
+    html.js-nav-active #basil-header-wrapper .basil-header-right .basil-header-right-content { display:block; }
+
+    body.basil-header-has-search .bx-nav-collapse ul:first-child,
+    body.basil-header-has-buttons .bx-nav-collapse ul:first-child { padding-top:calc( 2.4rem + 30px ); }
+    body.basil-header-has-buttons.basil-header-has-search .bx-nav-collapse ul:first-child { padding-top:calc( 4.8rem + 30px ); }
+
+    html.js-nav-active body.basil-header-has-search #basil-header-wrapper .basil-header-right .basil-header-right-content,
+    html.js-nav-active body.basil-header-has-buttons #basil-header-wrapper .basil-header-right .basil-header-right-content { height:calc( 2.4rem + 30px ); opacity:1; }
+    html.js-nav-active body.basil-header-has-search.basil-header-has-buttons #basil-header-wrapper .basil-header-right .basil-header-right-content { height:calc( 4.8rem + 30px ); opacity:1; }
+
+    body.logged-in.basil-header-has-search .bx-nav-collapse ul:first-child { padding-top:calc( 2.4rem + 30px ); }
+    body.logged-in.basil-header-has-buttons .bx-nav-collapse ul:first-child { padding-top:calc( 4.8rem + 30px ); }
+    body.logged-in.basil-header-has-buttons.basil-header-has-search .bx-nav-collapse ul:first-child { padding-top:calc( 7.2rem + 30px ); }
+
+    html.js-nav-active body.logged-in.basil-header-has-search #basil-header-wrapper .basil-header-right .basil-header-right-content { height:calc( 2.4rem + 30px ); opacity:1; }
+    html.js-nav-active body.logged-in.basil-header-has-buttons #basil-header-wrapper .basil-header-right .basil-header-right-content { height:calc( 4.8rem + 30px ); opacity:1; }
+    html.js-nav-active body.logged-in.basil-header-has-search.basil-header-has-buttons #basil-header-wrapper .basil-header-right .basil-header-right-content { height:calc( 7.2rem + 30px ); opacity:1; }
+
+}

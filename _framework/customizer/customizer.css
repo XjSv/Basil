@@ -1,0 +1,9 @@
+#customize-theme-controls .bx-customizer-section_heading { font-size:15px; font-weight:600; background:#ddd; color:#555; border-bottom:1px solid #ccc; padding:15px 12px; margin:10px -22px 0; }
+#customize-theme-controls ul.accordion-section-content .customize-control { padding:10px 10px 0; box-sizing:border-box; }
+#customize-theme-controls ul.accordion-section-content li:nth-child(2) { padding-top:0; }
+#customize-theme-controls ul.accordion-section-content li:nth-child(2) .bx-customizer-section_heading { margin-top:0; }
+#customize-theme-controls .customize-control-checkbox label, #customize-theme-controls .customize-control-nav_menu_auto_add label, #customize-theme-controls .customize-control-radio label { padding-bottom:0; }
+#customize-controls .description { color:#888; margin-bottom:10px; }
+#customize-theme-controls .customize-control-checkbox .description { margin-bottom:0; }
+#customize-theme-controls h3 i.fas { color:#0084bc; margin:0 7px 0 0; font-size:14px; }
+#customize-theme-controls .customize-section-title h3 i.fas { position:relative; top:-2px; }

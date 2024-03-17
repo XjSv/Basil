@@ -1,0 +1,1719 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Basil\n"
+"POT-Creation-Date: 2018-11-01 16:35-0400\n"
+"PO-Revision-Date: 2018-11-01 16:35-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: _framework/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: _framework/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: _framework/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: _framework/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: _framework/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: _framework/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: _framework/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: _framework/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: _framework/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: _framework/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: _framework/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: _framework/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: _framework/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:393
+#: _framework/class-tgm-plugin-activation.php:920
+#: _framework/class-tgm-plugin-activation.php:2626
+#: _framework/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:394
+#: _framework/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:395
+#: _framework/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: _framework/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: _framework/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: _framework/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:1027
+#: _framework/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:1214
+#: _framework/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: _framework/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: _framework/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: _framework/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: _framework/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: _framework/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: _framework/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: _framework/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: _framework/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: _framework/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: _framework/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: _framework/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: _framework/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: _framework/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: _framework/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:3602
+#: _framework/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:3602
+#: _framework/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: _framework/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: _framework/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: _framework/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: _framework/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: _framework/customizer/controls.php:50 _framework/customizer/controls.php:99
+#: _framework/customizer/controls.php:144
+#: _framework/customizer/controls.php:188
+#: _framework/customizer/controls.php:233
+#: _framework/customizer/controls.php:276
+msgid "Select"
+msgstr ""
+
+#: _framework/customizer/customizer.php:128
+msgid "Untitled Panel"
+msgstr ""
+
+#: _framework/customizer/customizer.php:146
+#: _framework/customizer/customizer.php:168
+msgid "Untitled Section"
+msgstr ""
+
+#: _framework/functions.php:23 _framework/functions.php:25
+msgid "System Font (WordPress Default)"
+msgstr ""
+
+#: _framework/functions.php:284
+msgctxt "Home Breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: _framework/functions.php:446 _framework/functions.php:450
+#: _framework/functions.php:461 _framework/functions.php:465
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: _framework/functions.php:491
+#, php-format
+msgid "Search results for: \"%s\""
+msgstr ""
+
+#: _theme/_templates/blog.php:16 _theme/_templates/loop.php:12
+msgid "Previous page"
+msgstr ""
+
+#: _theme/_templates/blog.php:17 _theme/_templates/loop.php:13
+msgid "Next page"
+msgstr ""
+
+#: _theme/_templates/blog.php:18 _theme/_templates/loop.php:14
+msgid "Page"
+msgstr ""
+
+#: _theme/_templates/content.php:36 _theme/_templates/content.php:50
+msgid "Continue Reading"
+msgstr ""
+
+#: _theme/_templates/content.php:41
+msgid "Pages:"
+msgstr ""
+
+#: _theme/config.php:69
+msgid "Main Menu"
+msgstr ""
+
+#: _theme/config.php:70
+msgid "Mobile Menu"
+msgstr ""
+
+#: _theme/config.php:90
+msgid "Create a menu for this area"
+msgstr ""
+
+#: _theme/customizer/options.php:39
+msgid "Theme Settings"
+msgstr ""
+
+#: _theme/customizer/options.php:50
+#: vendor/htmlburger/carbon-fields/core/Container/Container.php:711
+msgid "General"
+msgstr ""
+
+#: _theme/customizer/options.php:59 _theme/customizer/options.php:179
+#: _theme/meta/page-meta.php:171
+msgid "Recipe Slider"
+msgstr ""
+
+#: _theme/customizer/options.php:68
+msgid "Header"
+msgstr ""
+
+#: _theme/customizer/options.php:77 _theme/customizer/options.php:1113
+msgid "Footer"
+msgstr ""
+
+#: _theme/customizer/options.php:86
+msgid "Typography"
+msgstr ""
+
+#: _theme/customizer/options.php:95
+msgid "Pages & Posts"
+msgstr ""
+
+#: _theme/customizer/options.php:104
+msgid "WooCommerce"
+msgstr ""
+
+#: _theme/customizer/options.php:113
+msgid "Socials"
+msgstr ""
+
+#: _theme/customizer/options.php:122
+msgid "Advanced"
+msgstr ""
+
+#: _theme/customizer/options.php:135
+msgid "Layout Settings"
+msgstr ""
+
+#: _theme/customizer/options.php:142
+msgid "Layout Style"
+msgstr ""
+
+#: _theme/customizer/options.php:143
+msgid "Choose between a Full or Boxed layout"
+msgstr ""
+
+#: _theme/customizer/options.php:149
+msgid "Full"
+msgstr ""
+
+#: _theme/customizer/options.php:150
+msgid "Boxed"
+msgstr ""
+
+#: _theme/customizer/options.php:154
+msgid "Button Style"
+msgstr ""
+
+#: _theme/customizer/options.php:161
+msgid "Sharp Corners"
+msgstr ""
+
+#: _theme/customizer/options.php:162
+msgid "Rounded Corners"
+msgstr ""
+
+#: _theme/customizer/options.php:163
+msgid "Rounded"
+msgstr ""
+
+#: _theme/customizer/options.php:167
+msgid "Mobile Optimized (responsive)"
+msgstr ""
+
+#: _theme/customizer/options.php:187
+msgid "Background Image(s)"
+msgstr ""
+
+#: _theme/customizer/options.php:194
+msgid "Recipe Images"
+msgstr ""
+
+#: _theme/customizer/options.php:195
+msgid "Featured Image"
+msgstr ""
+
+#: _theme/customizer/options.php:200
+msgid "Background Transparency"
+msgstr ""
+
+#: _theme/customizer/options.php:207 _theme/customizer/options.php:239
+msgid "None"
+msgstr ""
+
+#: _theme/customizer/options.php:208 _theme/customizer/options.php:694
+msgid "90%"
+msgstr ""
+
+#: _theme/customizer/options.php:209 _theme/customizer/options.php:695
+msgid "80%"
+msgstr ""
+
+#: _theme/customizer/options.php:210 _theme/customizer/options.php:696
+msgid "70%"
+msgstr ""
+
+#: _theme/customizer/options.php:211 _theme/customizer/options.php:697
+msgid "60%"
+msgstr ""
+
+#: _theme/customizer/options.php:212 _theme/customizer/options.php:698
+msgid "50%"
+msgstr ""
+
+#: _theme/customizer/options.php:213 _theme/customizer/options.php:699
+msgid "40%"
+msgstr ""
+
+#: _theme/customizer/options.php:214 _theme/customizer/options.php:700
+msgid "30%"
+msgstr ""
+
+#: _theme/customizer/options.php:215 _theme/customizer/options.php:701
+msgid "20%"
+msgstr ""
+
+#: _theme/customizer/options.php:216 _theme/customizer/options.php:702
+msgid "10%"
+msgstr ""
+
+#: _theme/customizer/options.php:217
+msgid "Hidden"
+msgstr ""
+
+#: _theme/customizer/options.php:222
+msgid "Background Blur"
+msgstr ""
+
+#: _theme/customizer/options.php:229
+msgid "100px"
+msgstr ""
+
+#: _theme/customizer/options.php:230
+msgid "75px"
+msgstr ""
+
+#: _theme/customizer/options.php:231
+msgid "50px"
+msgstr ""
+
+#: _theme/customizer/options.php:232
+msgid "40px"
+msgstr ""
+
+#: _theme/customizer/options.php:233
+msgid "30px"
+msgstr ""
+
+#: _theme/customizer/options.php:234
+msgid "20px"
+msgstr ""
+
+#: _theme/customizer/options.php:235
+msgid "15px"
+msgstr ""
+
+#: _theme/customizer/options.php:236
+msgid "10px"
+msgstr ""
+
+#: _theme/customizer/options.php:237
+msgid "5px"
+msgstr ""
+
+#: _theme/customizer/options.php:238
+msgid "3px"
+msgstr ""
+
+#: _theme/customizer/options.php:243
+msgid "Slider Background Grayscale"
+msgstr ""
+
+#: _theme/customizer/options.php:250 _theme/customizer/options.php:380
+#: _theme/customizer/options.php:405 _theme/customizer/options.php:563
+#: _theme/customizer/options.php:576 _theme/meta/page-meta.php:312
+#: _theme/meta/page-meta.php:313 _theme/meta/page-meta.php:327
+#: _theme/meta/page-meta.php:328
+msgid "Enabled"
+msgstr ""
+
+#: _theme/customizer/options.php:251 _theme/customizer/options.php:379
+#: _theme/customizer/options.php:404 _theme/customizer/options.php:564
+#: _theme/customizer/options.php:577 _theme/customizer/options.php:606
+#: _theme/customizer/options.php:636 _theme/meta/page-meta.php:167
+#: _theme/meta/page-meta.php:293 _theme/meta/page-meta.php:312
+#: _theme/meta/page-meta.php:314 _theme/meta/page-meta.php:327
+#: _theme/meta/page-meta.php:329
+msgid "Disabled"
+msgstr ""
+
+#: _theme/customizer/options.php:256
+msgid "Slider Padding"
+msgstr ""
+
+#: _theme/customizer/options.php:279
+msgid "Background Color"
+msgstr ""
+
+#: _theme/customizer/options.php:288
+msgid "Heading Color"
+msgstr ""
+
+#: _theme/customizer/options.php:297
+msgid "Heading Size"
+msgstr ""
+
+#: _theme/customizer/options.php:319
+msgid "Subheading Color"
+msgstr ""
+
+#: _theme/customizer/options.php:328
+msgid "Subheading Size"
+msgstr ""
+
+#: _theme/customizer/options.php:350
+msgid "Link Color"
+msgstr ""
+
+#: _theme/customizer/options.php:362
+msgid "Main Header"
+msgstr ""
+
+#: _theme/customizer/options.php:369
+msgid "Header Height"
+msgstr ""
+
+#: _theme/customizer/options.php:384
+msgid "WordPress Search"
+msgstr ""
+
+#: _theme/customizer/options.php:385
+msgid "Cooked Recipe Search"
+msgstr ""
+
+#: _theme/customizer/options.php:388
+msgid "Search"
+msgstr ""
+
+#: _theme/customizer/options.php:397
+msgid "Cooked Profile Buttons"
+msgstr ""
+
+#: _theme/customizer/options.php:398
+msgid ""
+"Enabling this will show a \"Login\" button to non-logged-in users and "
+"\"Profile\" and \"Sign Out\" buttons to your logged-in users."
+msgstr ""
+
+#: _theme/customizer/options.php:418
+msgid "Cart/Checkout Background"
+msgstr ""
+
+#: _theme/customizer/options.php:426
+msgid "Cart/Checkout Header Background"
+msgstr ""
+
+#: _theme/customizer/options.php:434
+msgid "Cart/Checkout Header Text Color"
+msgstr ""
+
+#: _theme/customizer/options.php:442
+msgid "Cart/Checkout Footer Background"
+msgstr ""
+
+#: _theme/customizer/options.php:450
+msgid "Cart/Checkout Footer Text Color"
+msgstr ""
+
+#: _theme/customizer/options.php:458
+msgid "Product Upsells"
+msgstr ""
+
+#: _theme/customizer/options.php:465 _theme/customizer/options.php:477
+#: _theme/meta/page-meta.php:233
+msgid "Show"
+msgstr ""
+
+#: _theme/customizer/options.php:466 _theme/customizer/options.php:478
+#: _theme/meta/page-meta.php:234
+msgid "Hide"
+msgstr ""
+
+#: _theme/customizer/options.php:470
+msgid "Related Products"
+msgstr ""
+
+#: _theme/customizer/options.php:556 _theme/meta/page-meta.php:324
+msgid "Breadcrumbs"
+msgstr ""
+
+#: _theme/customizer/options.php:569 _theme/meta/page-meta.php:309
+msgid "Page Title"
+msgstr ""
+
+#: _theme/customizer/options.php:582 _theme/meta/page-meta.php:275
+msgid "Content Width"
+msgstr ""
+
+#: _theme/customizer/options.php:589 _theme/meta/page-meta.php:255
+msgid "Full-Width"
+msgstr ""
+
+#: _theme/customizer/options.php:590 _theme/meta/page-meta.php:256
+msgid "1100px"
+msgstr ""
+
+#: _theme/customizer/options.php:591 _theme/meta/page-meta.php:257
+msgid "1000px"
+msgstr ""
+
+#: _theme/customizer/options.php:592 _theme/meta/page-meta.php:258
+msgid "900px"
+msgstr ""
+
+#: _theme/customizer/options.php:593 _theme/meta/page-meta.php:259
+msgid "800px"
+msgstr ""
+
+#: _theme/customizer/options.php:594 _theme/meta/page-meta.php:260
+msgid "700px"
+msgstr ""
+
+#: _theme/customizer/options.php:595 _theme/meta/page-meta.php:261
+msgid "600px"
+msgstr ""
+
+#: _theme/customizer/options.php:599
+msgid "Featured Image Layout"
+msgstr ""
+
+#: _theme/customizer/options.php:600
+msgid "Choose how and where you featured images display."
+msgstr ""
+
+#: _theme/customizer/options.php:607
+msgid "Page Banner w/Title"
+msgstr ""
+
+#: _theme/customizer/options.php:608
+msgid "Page Banner w/o Title"
+msgstr ""
+
+#: _theme/customizer/options.php:609
+msgid "Inline"
+msgstr ""
+
+#: _theme/customizer/options.php:614
+msgid "Image Position"
+msgstr ""
+
+#: _theme/customizer/options.php:622
+msgid "Above Title"
+msgstr ""
+
+#: _theme/customizer/options.php:623
+msgid "Below Title"
+msgstr ""
+
+#: _theme/customizer/options.php:628
+msgid "Image Styling"
+msgstr ""
+
+#: _theme/customizer/options.php:637
+msgid "Bordered 1"
+msgstr ""
+
+#: _theme/customizer/options.php:638
+msgid "Bordered 2"
+msgstr ""
+
+#: _theme/customizer/options.php:639
+msgid "Bordered 3"
+msgstr ""
+
+#: _theme/customizer/options.php:640
+msgid "Bordered 4"
+msgstr ""
+
+#: _theme/customizer/options.php:641
+msgid "Bordered 5"
+msgstr ""
+
+#: _theme/customizer/options.php:642
+msgid "Small Shadow"
+msgstr ""
+
+#: _theme/customizer/options.php:643
+msgid "Medium Shadow"
+msgstr ""
+
+#: _theme/customizer/options.php:644
+msgid "Large Shadow"
+msgstr ""
+
+#: _theme/customizer/options.php:645
+msgid "Floating"
+msgstr ""
+
+#: _theme/customizer/options.php:650
+msgid "Image Border Color"
+msgstr ""
+
+#: _theme/customizer/options.php:660
+msgid "Page Title Style"
+msgstr ""
+
+#: _theme/customizer/options.php:668
+msgid "Centered"
+msgstr ""
+
+#: _theme/customizer/options.php:669
+msgid "Left"
+msgstr ""
+
+#: _theme/customizer/options.php:670
+msgid "Right"
+msgstr ""
+
+#: _theme/customizer/options.php:675
+msgid "Overlay Color"
+msgstr ""
+
+#: _theme/customizer/options.php:685
+msgid "Overlay Transparency"
+msgstr ""
+
+#: _theme/customizer/options.php:693
+msgid "Solid Color"
+msgstr ""
+
+#: _theme/customizer/options.php:703
+msgid "Transparent"
+msgstr ""
+
+#: _theme/customizer/options.php:708
+msgid "Page Title Color"
+msgstr ""
+
+#: _theme/customizer/options.php:722
+msgid "Header Colors"
+msgstr ""
+
+#: _theme/customizer/options.php:731
+msgid "Header Background Color"
+msgstr ""
+
+#: _theme/customizer/options.php:735
+msgid "Header Logo Text Color"
+msgstr ""
+
+#: _theme/customizer/options.php:739
+msgid "Navigation Background"
+msgstr ""
+
+#: _theme/customizer/options.php:743
+msgid "Navigation Text"
+msgstr ""
+
+#: _theme/customizer/options.php:747
+msgid "Navigation Text on Hover"
+msgstr ""
+
+#: _theme/customizer/options.php:751
+msgid "Navigation Text Background on Hover"
+msgstr ""
+
+#: _theme/customizer/options.php:755
+msgid "Navigation Dropdown Background"
+msgstr ""
+
+#: _theme/customizer/options.php:759
+msgid "Navigation Dropdown Text"
+msgstr ""
+
+#: _theme/customizer/options.php:763
+msgid "Navigation Dropdown Text on Hover"
+msgstr ""
+
+#: _theme/customizer/options.php:786
+msgid "Footer Colors"
+msgstr ""
+
+#: _theme/customizer/options.php:795
+msgid "Footer Background Color"
+msgstr ""
+
+#: _theme/customizer/options.php:799
+msgid "Footer Widgets - Text Color"
+msgstr ""
+
+#: _theme/customizer/options.php:803
+msgid "Footer Widgets - Link Color"
+msgstr ""
+
+#: _theme/customizer/options.php:807
+msgid "Footer Widgets - Link Color on Hover"
+msgstr ""
+
+#: _theme/customizer/options.php:811
+msgid "Footer Bottom - Text Color"
+msgstr ""
+
+#: _theme/customizer/options.php:815
+msgid "Footer Bottom - Link Color"
+msgstr ""
+
+#: _theme/customizer/options.php:819
+msgid "Footer Bottom - Link Color on Hover"
+msgstr ""
+
+#: _theme/customizer/options.php:842
+msgid "Button Colors"
+msgstr ""
+
+#: _theme/customizer/options.php:851
+msgid "Main Button Background Color"
+msgstr ""
+
+#: _theme/customizer/options.php:855
+msgid "Main Button Text Color"
+msgstr ""
+
+#: _theme/customizer/options.php:859
+msgid "Main Button Background Color on Hover"
+msgstr ""
+
+#: _theme/customizer/options.php:863
+msgid "Main Button Text Color on Hover"
+msgstr ""
+
+#: _theme/customizer/options.php:867
+msgid "Secondary Button Background Color"
+msgstr ""
+
+#: _theme/customizer/options.php:871
+msgid "Secondary Button Text Color"
+msgstr ""
+
+#: _theme/customizer/options.php:875
+msgid "Secondary Button Background Color on Hover"
+msgstr ""
+
+#: _theme/customizer/options.php:879
+msgid "Secondary Button Text Color on Hover"
+msgstr ""
+
+#: _theme/customizer/options.php:902
+msgid "Main Content Colors"
+msgstr ""
+
+#: _theme/customizer/options.php:911
+msgid "Content Background Color"
+msgstr ""
+
+#: _theme/customizer/options.php:915
+msgid "Content Text Color"
+msgstr ""
+
+#: _theme/customizer/options.php:919
+msgid "Content Link Color"
+msgstr ""
+
+#: _theme/customizer/options.php:923
+msgid "Content Link Color on Hover"
+msgstr ""
+
+#: _theme/customizer/options.php:927
+msgid "H1 Header Color"
+msgstr ""
+
+#: _theme/customizer/options.php:931
+msgid "H2 Header Color"
+msgstr ""
+
+#: _theme/customizer/options.php:935
+msgid "H3 Header Color"
+msgstr ""
+
+#: _theme/customizer/options.php:939
+msgid "H4 Header Color"
+msgstr ""
+
+#: _theme/customizer/options.php:943
+msgid "H5 Header Color"
+msgstr ""
+
+#: _theme/customizer/options.php:947
+msgid "H6 Header Color"
+msgstr ""
+
+#: _theme/customizer/options.php:969
+msgid "Base Font"
+msgstr ""
+
+#: _theme/customizer/options.php:979
+msgid "Base Text Size"
+msgstr ""
+
+#: _theme/customizer/options.php:989
+msgid "H1 Heading (Page Title)"
+msgstr ""
+
+#: _theme/customizer/options.php:999
+msgid "H1 Size"
+msgstr ""
+
+#: _theme/customizer/options.php:1009
+msgid "H2 Heading"
+msgstr ""
+
+#: _theme/customizer/options.php:1019
+msgid "H2 Size"
+msgstr ""
+
+#: _theme/customizer/options.php:1029
+msgid "H3 Heading"
+msgstr ""
+
+#: _theme/customizer/options.php:1039
+msgid "H3 Size"
+msgstr ""
+
+#: _theme/customizer/options.php:1049
+msgid "H4 Heading"
+msgstr ""
+
+#: _theme/customizer/options.php:1059
+msgid "H4 Size"
+msgstr ""
+
+#: _theme/customizer/options.php:1069
+msgid "H5 Heading"
+msgstr ""
+
+#: _theme/customizer/options.php:1079
+msgid "H5 Size"
+msgstr ""
+
+#: _theme/customizer/options.php:1089
+msgid "H6 Heading"
+msgstr ""
+
+#: _theme/customizer/options.php:1099
+msgid "H6 Size"
+msgstr ""
+
+#: _theme/customizer/options.php:1120
+msgid "Left Content"
+msgstr ""
+
+#: _theme/customizer/options.php:1126 _theme/customizer/options.php:1148
+msgid "Nothing"
+msgstr ""
+
+#: _theme/customizer/options.php:1127 _theme/customizer/options.php:1149
+msgid "Text/HTML"
+msgstr ""
+
+#: _theme/customizer/options.php:1128 _theme/customizer/options.php:1150
+msgid "Social Icons"
+msgstr ""
+
+#: _theme/customizer/options.php:1132
+msgid "Left Text"
+msgstr ""
+
+#: _theme/customizer/options.php:1142
+msgid "Right Content"
+msgstr ""
+
+#: _theme/customizer/options.php:1154
+msgid "Right Text"
+msgstr ""
+
+#: _theme/meta/page-meta.php:29
+msgid "Basil Page Settings"
+msgstr ""
+
+#: _theme/meta/page-meta.php:168
+msgid "Image Banner w/Title"
+msgstr ""
+
+#: _theme/meta/page-meta.php:169
+msgid "Image Banner w/o Title"
+msgstr ""
+
+#: _theme/meta/page-meta.php:170
+msgid "Inline Image"
+msgstr ""
+
+#: _theme/meta/page-meta.php:175 _theme/meta/page-meta.php:265
+#: _theme/meta/page-meta.php:312 _theme/meta/page-meta.php:327
+#, php-format
+msgid "Default (%s)"
+msgstr ""
+
+#: _theme/meta/page-meta.php:183
+msgid "Top Content"
+msgstr ""
+
+#: _theme/meta/page-meta.php:196
+msgid "Recipe Slider Title"
+msgstr ""
+
+#: _theme/meta/page-meta.php:207
+msgid "Recipe Slider Subheading"
+msgstr ""
+
+#: _theme/meta/page-meta.php:218
+msgid "Add Recipes"
+msgstr ""
+
+#: _theme/meta/page-meta.php:237 _theme/widgets/init.php:57
+msgid "Homepage Content"
+msgstr ""
+
+#: _theme/meta/page-meta.php:290
+msgid "Sidebar"
+msgstr ""
+
+#: _theme/meta/page-meta.php:298
+msgid ""
+"You can choose a custom sidebar for this page, or disable the sidebar all-"
+"together."
+msgstr ""
+
+#: _theme/parts/header.php:86
+msgid "Profile"
+msgstr ""
+
+#: _theme/parts/header.php:87
+msgid "Sign Out"
+msgstr ""
+
+#: _theme/parts/header.php:91
+msgid "Sign In"
+msgstr ""
+
+#: _theme/widgets/init.php:25
+#, php-format
+msgid "Sidebar (%s)"
+msgstr ""
+
+#: _theme/widgets/init.php:27
+msgid "Add widgets here to appear in the sidebar."
+msgstr ""
+
+#: _theme/widgets/init.php:37
+msgid "Sidebar (Posts)"
+msgstr ""
+
+#: _theme/widgets/init.php:39
+msgid "Add widgets here to appear in your post sidebar."
+msgstr ""
+
+#: _theme/widgets/init.php:47
+msgid "Sidebar (Pages)"
+msgstr ""
+
+#: _theme/widgets/init.php:49
+msgid "Add widgets here to appear in your page sidebar."
+msgstr ""
+
+#: _theme/widgets/init.php:59
+msgid "Widgets here will show up full-width on pages using this sidebar."
+msgstr ""
+
+#: _theme/widgets/init.php:67
+msgid "Footer Column 1"
+msgstr ""
+
+#: _theme/widgets/init.php:69 _theme/widgets/init.php:79
+#: _theme/widgets/init.php:89 _theme/widgets/init.php:99
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: _theme/widgets/init.php:77
+msgid "Footer Column 2"
+msgstr ""
+
+#: _theme/widgets/init.php:87
+msgid "Footer Column 3"
+msgstr ""
+
+#: _theme/widgets/init.php:97
+msgid "Footer Column 4"
+msgstr ""
+
+#: comments.php:11
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:11
+#, php-format
+msgid "%s Comments"
+msgstr ""
+
+#: comments.php:26
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:207
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:209
+msgid "Nothing Found"
+msgstr ""
+
+#: functions.php:305
+msgid "Posted on"
+msgstr ""
+
+#: functions.php:308
+msgctxt "by Author Name"
+msgid "by"
+msgstr ""
+
+#: functions.php:309
+msgid "Author"
+msgstr ""
+
+#: functions.php:334
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: functions.php:342
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: searchform.php:2 vendor/htmlburger/carbon-fields/core/Loader/Loader.php:170
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:3
+msgctxt "Submit Button"
+msgid "Search"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Container/Theme_Options_Container.php:207
+msgid "Settings saved."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Field/Footer_Scripts_Field.php:20
+msgid ""
+"If you need to add scripts to your footer (like Google Analytics tracking "
+"code), you should enter them in this box."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Field/Gravity_Form_Field.php:47
+msgid "No form"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Field/Header_Scripts_Field.php:20
+msgid "If you need to add scripts to your header, you should enter them here."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Field/Sidebar_Field.php:74
+msgctxt "sidebar"
+msgid "Add New"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:69
+msgid "Please enter a name for the sidebar."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:72
+msgid "Unknown action attempted."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:102
+msgid "Sidebar with the same ID is already registered."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:112
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:142
+msgid ""
+"Failed to update option storing your custom sidebars. Please contact support."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:137
+msgid "Sidebar not found."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:181
+msgid "Add Sidebar"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:182
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:154
+msgid "Please enter the name of the new sidebar:"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:183
+msgid "Are you sure you wish to remove this sidebar?"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:129
+msgid "Please fill out all required fields highlighted below."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:130
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:134
+msgid "The address could not be found. "
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:135
+msgid "Geocode was not successful for the following reason: "
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:136
+msgid "Locate address on the map:"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:137
+#, php-format
+msgid "Minimum number of items not reached (%s items)"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:138
+#, php-format
+msgid "Maximum number of items reached (%s items)"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:140
+#, php-format
+msgid "There are no %s yet. Click <a href=\"#\">here</a> to add one."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:141
+#, php-format
+msgid "Minimum number of rows not reached (%1$d %2$s)"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:142
+#, php-format
+msgid "Maximum number of rows exceeded (%1$d %2$s)"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:143
+#, php-format
+msgctxt "Complex field"
+msgid "Add %s"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:144
+msgctxt "Complex field"
+msgid "Clone"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:145
+msgctxt "Complex field"
+msgid "Remove"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:146
+msgctxt "Complex field"
+msgid "Collapse/Expand"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:147
+msgctxt "Complex field groups"
+msgid "Collapse All"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:148
+msgctxt "Complex field groups"
+msgid "Expand All"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:150
+msgid "Please fill out all fields correctly. "
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:151
+msgid "This field is required. "
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:152
+msgid "Please choose an option. "
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:156
+msgid "Select Time"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:157
+msgid "Select Date"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:159
+#, php-format
+msgid "%1$d selected item"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:160
+#, php-format
+msgid "%1$d selected items"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:161
+#, php-format
+msgid "%1$d selected item out of %2$d"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:162
+#, php-format
+msgid "%1$d selected items out of %2$d"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:164
+msgid "Select a color"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:166
+msgid "No options."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:168
+msgid "Show all options"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:172
+msgctxt "WordPress media attachment"
+msgid "URL"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:173
+msgctxt "WordPress media attachment"
+msgid "Title"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:174
+msgctxt "WordPress media attachment"
+msgid "Artist"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:175
+msgctxt "WordPress media attachment"
+msgid "Album"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:176
+msgctxt "WordPress media attachment"
+msgid "Caption"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:177
+msgctxt "WordPress media attachment"
+msgid "Alt Text"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:178
+msgctxt "WordPress media attachment"
+msgid "Description"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:179
+msgctxt "WordPress media attachment"
+msgid "Close"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:180
+msgctxt "WordPress media attachment"
+msgid "Save"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:182
+msgctxt "oEmbed field"
+msgid "Not Found"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:184
+msgid "No files selected."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:185
+msgid "Add File"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:186
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:190
+msgctxt "WordPress Media Browser"
+msgid "Files"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:187
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:191
+msgctxt "WordPress Media Browser"
+msgid "Select File"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:189
+msgid "Select File"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:193
+msgid "Select Image"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:194
+msgctxt "WordPress Media Browser"
+msgid "Images"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:195
+msgctxt "WordPress Media Browser"
+msgid "Select Image"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:287
+msgid "No option names provided"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:298
+msgid "Theme Options updated."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:34
+msgid "Actions"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:43
+msgid "Save Changes"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/templates/Container/widget.php:4
+msgid "No options are available for this widget."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Basil"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://demos.boxystudio.com/basil/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A modern and customizable recipe theme for WordPress, powered by Cooked."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Boxy Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.boxystudio.com"
+msgstr ""
