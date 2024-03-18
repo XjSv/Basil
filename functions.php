@@ -15,7 +15,6 @@ define( 'BX_FW_URL', trailingslashit( BX_BASE_URL . '_framework' ) );
 define( 'BX_THEME_DIR', trailingslashit( BX_BASE_DIR . '_theme' ) );
 define( 'BX_THEME_URL', trailingslashit( BX_BASE_URL . '_theme' ) );
 
-
 // Theme Updates
 require_once( BX_FW_DIR . 'updates/theme-update-checker.php');
 $BoxyThemeUpdateChecker = new ThemeUpdateChecker( 'basil', 'http://boxyupdates.com/get/?action=get_metadata&slug=basil' );
@@ -54,7 +53,6 @@ function basil_logo_display() {
 }
 
 function basil_slider( $recipes = array(), $title = false, $subheading = false ) {
-
     global $bx_options, $post;
 
     if ( !empty($recipes) ):
@@ -86,11 +84,9 @@ function basil_slider( $recipes = array(), $title = false, $subheading = false )
         wp_reset_query();
 
     endif;
-
 }
 
-function basil_is_sidebar_active(){
-
+function basil_is_sidebar_active() {
     global $bx_page_settings, $post;
 
     $post_types = get_post_types( array( 'public' => true, 'exclude_from_search' => false, '_builtin' => false ), 'objects', 'and' );
@@ -144,7 +140,6 @@ function basil_is_sidebar_active(){
     }
 
     return false;
-
 }
 
 function basil_page_banner() {
@@ -201,10 +196,9 @@ function basil_page_banner() {
     endif;
 
     wp_reset_postdata();
-
 }
 
-function basil_the_title( $before, $after ){
+function basil_the_title( $before, $after ) {
 
     global $wp_query;
 
@@ -238,7 +232,7 @@ function basil_the_title( $before, $after ){
 
 }
 
-function basil_page_thumbnail(){
+function basil_page_thumbnail() {
 
     global $bx_options,$post;
 
