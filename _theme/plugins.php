@@ -5,35 +5,29 @@ require_once BX_FW_DIR . '/class-tgm-plugin-activation.php';
 add_action( 'tgmpa_register', 'basil_register_required_plugins' );
 
 function basil_register_required_plugins() {
-
     $plugins = array(
-
         array(
-            'name'      => 'Cooked',
-            'slug'      => 'cooked',
-            'required'  => false,
+            'name'     => 'Cooked',
+            'slug'     => 'cooked',
+            'required' => false,
         ),
-
+        /* array(
+            'name'     => 'Cooked Pro',
+            'slug'     => 'cooked-pro',
+            'source'   => get_template_directory() . '/plugins/cooked-pro.zip',
+            'required' => false,
+            'version'  => BASIL_CP_VERSION,
+        ), */
         array(
-            'name'               => 'Cooked Pro',
-            'slug'               => 'cooked-pro',
-            'source'             => get_template_directory() . '/plugins/cooked-pro.zip',
-            'required'           => false,
-            'version'            => BASIL_CP_VERSION,
+            'name'     => 'WooCommerce',
+            'slug'     => 'woocommerce',
+            'required' => false
         ),
-
         array(
-            'name'               => 'WooCommerce',
-            'slug'               => 'woocommerce',
-            'required'           => false
-        ),
-
-        array(
-            'name'               => 'WooCommerce Colors',
-            'slug'               => 'woocommerce-colors',
-            'required'           => false
+            'name'     => 'WooCommerce Colors',
+            'slug'     => 'woocommerce-colors',
+            'required'=> false
         )
-
     );
 
     $config = array(
@@ -50,5 +44,4 @@ function basil_register_required_plugins() {
     );
 
     tgmpa( $plugins, $config );
-
 }

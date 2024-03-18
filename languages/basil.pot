@@ -1,480 +1,93 @@
-#, fuzzy
+# Copyright (C) 2024 Boxy Studio
+# This file is distributed under the GNU General Public License v3.
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: Basil\n"
-"POT-Creation-Date: 2018-11-01 16:35-0400\n"
-"PO-Revision-Date: 2018-11-01 16:35-0400\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Project-Id-Version: Basil 2.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/basil\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: style.css\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
-
-#: _framework/class-tgm-plugin-activation.php:334
-msgid "Install Required Plugins"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:335
-msgid "Install Plugins"
-msgstr ""
-
-#. translators: %s: plugin name.
-#: _framework/class-tgm-plugin-activation.php:337
-#, php-format
-msgid "Installing Plugin: %s"
-msgstr ""
-
-#. translators: %s: plugin name.
-#: _framework/class-tgm-plugin-activation.php:339
-#, php-format
-msgid "Updating Plugin: %s"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:340
-msgid "Something went wrong with the plugin API."
-msgstr ""
-
-#. translators: 1: plugin name(s).
-#: _framework/class-tgm-plugin-activation.php:343
-#, php-format
-msgid "This theme requires the following plugin: %1$s."
-msgid_plural "This theme requires the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: plugin name(s).
-#: _framework/class-tgm-plugin-activation.php:349
-#, php-format
-msgid "This theme recommends the following plugin: %1$s."
-msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: plugin name(s).
-#: _framework/class-tgm-plugin-activation.php:355
-#, php-format
-msgid ""
-"The following plugin needs to be updated to its latest version to ensure "
-"maximum compatibility with this theme: %1$s."
-msgid_plural ""
-"The following plugins need to be updated to their latest version to ensure "
-"maximum compatibility with this theme: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: plugin name(s).
-#: _framework/class-tgm-plugin-activation.php:361
-#, php-format
-msgid "There is an update available for: %1$s."
-msgid_plural "There are updates available for the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+"POT-Creation-Date: 2024-03-18T01:03:03+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: basil\n"
 
-#. translators: 1: plugin name(s).
-#: _framework/class-tgm-plugin-activation.php:367
-#, php-format
-msgid "The following required plugin is currently inactive: %1$s."
-msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: plugin name(s).
-#: _framework/class-tgm-plugin-activation.php:373
-#, php-format
-msgid "The following recommended plugin is currently inactive: %1$s."
-msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: _framework/class-tgm-plugin-activation.php:378
-msgid "Begin installing plugin"
-msgid_plural "Begin installing plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: _framework/class-tgm-plugin-activation.php:383
-msgid "Begin updating plugin"
-msgid_plural "Begin updating plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: _framework/class-tgm-plugin-activation.php:388
-msgid "Begin activating plugin"
-msgid_plural "Begin activating plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: _framework/class-tgm-plugin-activation.php:392
-msgid "Return to Required Plugins Installer"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:393
-#: _framework/class-tgm-plugin-activation.php:920
-#: _framework/class-tgm-plugin-activation.php:2626
-#: _framework/class-tgm-plugin-activation.php:3673
-msgid "Return to the Dashboard"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:394
-#: _framework/class-tgm-plugin-activation.php:3252
-msgid "Plugin activated successfully."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:395
-#: _framework/class-tgm-plugin-activation.php:3045
-msgid "The following plugin was activated successfully:"
-msgid_plural "The following plugins were activated successfully:"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: plugin name.
-#: _framework/class-tgm-plugin-activation.php:397
-#, php-format
-msgid "No action taken. Plugin %1$s was already active."
-msgstr ""
-
-#. translators: 1: plugin name.
-#: _framework/class-tgm-plugin-activation.php:399
-#, php-format
-msgid ""
-"Plugin not activated. A higher version of %s is needed for this theme. "
-"Please update the plugin."
-msgstr ""
-
-#. translators: 1: dashboard link.
-#: _framework/class-tgm-plugin-activation.php:401
-#, php-format
-msgid "All plugins installed and activated successfully. %1$s"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:402
-msgid "Dismiss this notice"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:403
-msgid ""
-"There are one or more required or recommended plugins to install, update or "
-"activate."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:404
-msgid "Please contact the administrator of this site for help."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:607
-msgid "This plugin needs to be updated to be compatible with your theme."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:608
-msgid "Update Required"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:725
-msgid "Set the parent_slug config variable instead."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:1027
-msgid ""
-"The remote plugin package does not contain a folder with the desired slug "
-"and renaming did not work."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:1027
-#: _framework/class-tgm-plugin-activation.php:1030
-msgid ""
-"Please contact the plugin provider and ask them to package their plugin "
-"according to the WordPress guidelines."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:1030
-msgid ""
-"The remote plugin package consists of more than one file, but the files are "
-"not packaged in a folder."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:1214
-#: _framework/class-tgm-plugin-activation.php:3041
-msgctxt "plugin A *and* plugin B"
-msgid "and"
-msgstr ""
-
-#. translators: %s: version number
-#: _framework/class-tgm-plugin-activation.php:2075
-#, php-format
-msgid "TGMPA v%s"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2366
-msgid "Required"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2369
-msgid "Recommended"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2385
-msgid "WordPress Repository"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2388
-msgid "External Source"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2391
-msgid "Pre-Packaged"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2408
-msgid "Not Installed"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2412
-msgid "Installed But Not Activated"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2414
-msgid "Active"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2420
-msgid "Required Update not Available"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2423
-msgid "Requires Update"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2426
-msgid "Update recommended"
-msgstr ""
-
-#. translators: 1: install status, 2: update status
-#: _framework/class-tgm-plugin-activation.php:2435
-#, php-format
-msgctxt "Install/Update Status"
-msgid "%1$s, %2$s"
-msgstr ""
-
-#. translators: 1: number of plugins.
-#: _framework/class-tgm-plugin-activation.php:2481
-#, php-format
-msgctxt "plugins"
-msgid "All <span class=\"count\">(%s)</span>"
-msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: number of plugins.
-#: _framework/class-tgm-plugin-activation.php:2485
-#, php-format
-msgid "To Install <span class=\"count\">(%s)</span>"
-msgid_plural "To Install <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: number of plugins.
-#: _framework/class-tgm-plugin-activation.php:2489
-#, php-format
-msgid "Update Available <span class=\"count\">(%s)</span>"
-msgid_plural "Update Available <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: number of plugins.
-#: _framework/class-tgm-plugin-activation.php:2493
-#, php-format
-msgid "To Activate <span class=\"count\">(%s)</span>"
-msgid_plural "To Activate <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: _framework/class-tgm-plugin-activation.php:2575
-msgctxt "as in: \"version nr unknown\""
-msgid "unknown"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2583
-msgid "Installed version:"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2591
-msgid "Minimum required version:"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2603
-msgid "Available version:"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2626
-msgid "No plugins to install, update or activate."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2640
-msgid "Plugin"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2641
-msgid "Source"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2642
-msgid "Type"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2646
-msgid "Version"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2647
-msgid "Status"
-msgstr ""
-
-#. translators: %2$s: plugin name in screen reader markup
-#: _framework/class-tgm-plugin-activation.php:2696
-#, php-format
-msgid "Install %2$s"
-msgstr ""
-
-#. translators: %2$s: plugin name in screen reader markup
-#: _framework/class-tgm-plugin-activation.php:2701
-#, php-format
-msgid "Update %2$s"
-msgstr ""
-
-#. translators: %2$s: plugin name in screen reader markup
-#: _framework/class-tgm-plugin-activation.php:2707
-#, php-format
-msgid "Activate %2$s"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2777
-msgid "Upgrade message from the plugin author:"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2810
-msgid "Install"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2816
-msgid "Update"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2819
-msgid "Activate"
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2850
-msgid "No plugins were selected to be installed. No action taken."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2852
-msgid "No plugins were selected to be updated. No action taken."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2893
-msgid "No plugins are available to be installed at this time."
-msgstr ""
-
-#: _framework/class-tgm-plugin-activation.php:2895
-msgid "No plugins are available to be updated at this time."
+#. Theme Name of the theme
+msgid "Basil"
 msgstr ""
 
-#: _framework/class-tgm-plugin-activation.php:3001
-msgid "No plugins were selected to be activated. No action taken."
+#. Theme URI of the theme
+msgid "https://github.com/XjSv/basil"
 msgstr ""
 
-#: _framework/class-tgm-plugin-activation.php:3027
-msgid "No plugins are available to be activated at this time."
+#. Description of the theme
+msgid "A modern and customizable recipe theme for WordPress, powered by Cooked."
 msgstr ""
 
-#: _framework/class-tgm-plugin-activation.php:3251
-msgid "Plugin activation failed."
+#. Author of the theme
+msgid "Boxy Studio"
 msgstr ""
 
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: _framework/class-tgm-plugin-activation.php:3591
-#, php-format
-msgid "Updating Plugin %1$s (%2$d/%3$d)"
+#. Author URI of the theme
+msgid "https://www.boxystudio.com"
 msgstr ""
 
-#. translators: 1: plugin name, 2: error message.
-#: _framework/class-tgm-plugin-activation.php:3594
-#, php-format
-msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#: comments.php:11
+msgid "One Comment"
 msgstr ""
 
-#. translators: 1: plugin name.
-#: _framework/class-tgm-plugin-activation.php:3596
-#, php-format
-msgid "The installation of %1$s failed."
+#: comments.php:11
+msgid "%s Comments"
 msgstr ""
 
-#: _framework/class-tgm-plugin-activation.php:3600
-msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
+#: comments.php:26
+msgid "Comments are closed."
 msgstr ""
 
-#. translators: 1: plugin name.
-#: _framework/class-tgm-plugin-activation.php:3602
-#, php-format
-msgid "%1$s installed and activated successfully."
+#: functions.php:213
+msgid "Search Results for: %s"
 msgstr ""
 
-#: _framework/class-tgm-plugin-activation.php:3602
-#: _framework/class-tgm-plugin-activation.php:3610
-msgid "Show Details"
+#: functions.php:215
+msgid "Nothing Found"
 msgstr ""
 
-#: _framework/class-tgm-plugin-activation.php:3602
-#: _framework/class-tgm-plugin-activation.php:3610
-msgid "Hide Details"
+#: functions.php:311
+msgid "Posted on"
 msgstr ""
 
-#: _framework/class-tgm-plugin-activation.php:3603
-msgid "All installations and activations have been completed."
+#: functions.php:314
+msgctxt "by Author Name"
+msgid "by"
 msgstr ""
 
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: _framework/class-tgm-plugin-activation.php:3605
-#, php-format
-msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+#: functions.php:315
+msgid "Author"
 msgstr ""
 
-#: _framework/class-tgm-plugin-activation.php:3608
-msgid ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
+#: functions.php:340
+msgctxt "Used before category names."
+msgid "Categories"
 msgstr ""
 
-#. translators: 1: plugin name.
-#: _framework/class-tgm-plugin-activation.php:3610
-#, php-format
-msgid "%1$s installed successfully."
+#: functions.php:348
+msgctxt "Used before tag names."
+msgid "Tags"
 msgstr ""
 
-#: _framework/class-tgm-plugin-activation.php:3611
-msgid "All installations have been completed."
+#: searchform.php:2
+msgid "Search..."
 msgstr ""
 
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: _framework/class-tgm-plugin-activation.php:3613
-#, php-format
-msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#: searchform.php:3
+msgctxt "Submit Button"
+msgid "Search"
 msgstr ""
 
-#: _framework/customizer/controls.php:50 _framework/customizer/controls.php:99
+#: _framework/customizer/controls.php:50
+#: _framework/customizer/controls.php:99
 #: _framework/customizer/controls.php:144
 #: _framework/customizer/controls.php:188
 #: _framework/customizer/controls.php:233
@@ -491,44 +104,25 @@ msgstr ""
 msgid "Untitled Section"
 msgstr ""
 
-#: _framework/functions.php:23 _framework/functions.php:25
+#: _framework/functions.php:23
+#: _framework/functions.php:25
 msgid "System Font (WordPress Default)"
 msgstr ""
 
-#: _framework/functions.php:284
+#: _framework/functions.php:276
 msgctxt "Home Breadcrumb"
 msgid "Home"
 msgstr ""
 
-#: _framework/functions.php:446 _framework/functions.php:450
-#: _framework/functions.php:461 _framework/functions.php:465
-#, php-format
+#: _framework/functions.php:438
+#: _framework/functions.php:442
+#: _framework/functions.php:453
+#: _framework/functions.php:457
 msgid "%s Archives"
 msgstr ""
 
-#: _framework/functions.php:491
-#, php-format
+#: _framework/functions.php:483
 msgid "Search results for: \"%s\""
-msgstr ""
-
-#: _theme/_templates/blog.php:16 _theme/_templates/loop.php:12
-msgid "Previous page"
-msgstr ""
-
-#: _theme/_templates/blog.php:17 _theme/_templates/loop.php:13
-msgid "Next page"
-msgstr ""
-
-#: _theme/_templates/blog.php:18 _theme/_templates/loop.php:14
-msgid "Page"
-msgstr ""
-
-#: _theme/_templates/content.php:36 _theme/_templates/content.php:50
-msgid "Continue Reading"
-msgstr ""
-
-#: _theme/_templates/content.php:41
-msgid "Pages:"
 msgstr ""
 
 #: _theme/config.php:69
@@ -548,11 +142,11 @@ msgid "Theme Settings"
 msgstr ""
 
 #: _theme/customizer/options.php:50
-#: vendor/htmlburger/carbon-fields/core/Container/Container.php:711
 msgid "General"
 msgstr ""
 
-#: _theme/customizer/options.php:59 _theme/customizer/options.php:179
+#: _theme/customizer/options.php:59
+#: _theme/customizer/options.php:179
 #: _theme/meta/page-meta.php:171
 msgid "Recipe Slider"
 msgstr ""
@@ -561,7 +155,8 @@ msgstr ""
 msgid "Header"
 msgstr ""
 
-#: _theme/customizer/options.php:77 _theme/customizer/options.php:1113
+#: _theme/customizer/options.php:77
+#: _theme/customizer/options.php:1113
 msgid "Footer"
 msgstr ""
 
@@ -641,43 +236,53 @@ msgstr ""
 msgid "Background Transparency"
 msgstr ""
 
-#: _theme/customizer/options.php:207 _theme/customizer/options.php:239
+#: _theme/customizer/options.php:207
+#: _theme/customizer/options.php:239
 msgid "None"
 msgstr ""
 
-#: _theme/customizer/options.php:208 _theme/customizer/options.php:694
+#: _theme/customizer/options.php:208
+#: _theme/customizer/options.php:694
 msgid "90%"
 msgstr ""
 
-#: _theme/customizer/options.php:209 _theme/customizer/options.php:695
+#: _theme/customizer/options.php:209
+#: _theme/customizer/options.php:695
 msgid "80%"
 msgstr ""
 
-#: _theme/customizer/options.php:210 _theme/customizer/options.php:696
+#: _theme/customizer/options.php:210
+#: _theme/customizer/options.php:696
 msgid "70%"
 msgstr ""
 
-#: _theme/customizer/options.php:211 _theme/customizer/options.php:697
+#: _theme/customizer/options.php:211
+#: _theme/customizer/options.php:697
 msgid "60%"
 msgstr ""
 
-#: _theme/customizer/options.php:212 _theme/customizer/options.php:698
+#: _theme/customizer/options.php:212
+#: _theme/customizer/options.php:698
 msgid "50%"
 msgstr ""
 
-#: _theme/customizer/options.php:213 _theme/customizer/options.php:699
+#: _theme/customizer/options.php:213
+#: _theme/customizer/options.php:699
 msgid "40%"
 msgstr ""
 
-#: _theme/customizer/options.php:214 _theme/customizer/options.php:700
+#: _theme/customizer/options.php:214
+#: _theme/customizer/options.php:700
 msgid "30%"
 msgstr ""
 
-#: _theme/customizer/options.php:215 _theme/customizer/options.php:701
+#: _theme/customizer/options.php:215
+#: _theme/customizer/options.php:701
 msgid "20%"
 msgstr ""
 
-#: _theme/customizer/options.php:216 _theme/customizer/options.php:702
+#: _theme/customizer/options.php:216
+#: _theme/customizer/options.php:702
 msgid "10%"
 msgstr ""
 
@@ -733,20 +338,30 @@ msgstr ""
 msgid "Slider Background Grayscale"
 msgstr ""
 
-#: _theme/customizer/options.php:250 _theme/customizer/options.php:380
-#: _theme/customizer/options.php:405 _theme/customizer/options.php:563
-#: _theme/customizer/options.php:576 _theme/meta/page-meta.php:312
-#: _theme/meta/page-meta.php:313 _theme/meta/page-meta.php:327
+#: _theme/customizer/options.php:250
+#: _theme/customizer/options.php:380
+#: _theme/customizer/options.php:405
+#: _theme/customizer/options.php:563
+#: _theme/customizer/options.php:576
+#: _theme/meta/page-meta.php:312
+#: _theme/meta/page-meta.php:313
+#: _theme/meta/page-meta.php:327
 #: _theme/meta/page-meta.php:328
 msgid "Enabled"
 msgstr ""
 
-#: _theme/customizer/options.php:251 _theme/customizer/options.php:379
-#: _theme/customizer/options.php:404 _theme/customizer/options.php:564
-#: _theme/customizer/options.php:577 _theme/customizer/options.php:606
-#: _theme/customizer/options.php:636 _theme/meta/page-meta.php:167
-#: _theme/meta/page-meta.php:293 _theme/meta/page-meta.php:312
-#: _theme/meta/page-meta.php:314 _theme/meta/page-meta.php:327
+#: _theme/customizer/options.php:251
+#: _theme/customizer/options.php:379
+#: _theme/customizer/options.php:404
+#: _theme/customizer/options.php:564
+#: _theme/customizer/options.php:577
+#: _theme/customizer/options.php:606
+#: _theme/customizer/options.php:636
+#: _theme/meta/page-meta.php:167
+#: _theme/meta/page-meta.php:293
+#: _theme/meta/page-meta.php:312
+#: _theme/meta/page-meta.php:314
+#: _theme/meta/page-meta.php:327
 #: _theme/meta/page-meta.php:329
 msgid "Disabled"
 msgstr ""
@@ -804,9 +419,7 @@ msgid "Cooked Profile Buttons"
 msgstr ""
 
 #: _theme/customizer/options.php:398
-msgid ""
-"Enabling this will show a \"Login\" button to non-logged-in users and "
-"\"Profile\" and \"Sign Out\" buttons to your logged-in users."
+msgid "Enabling this will show a \"Login\" button to non-logged-in users and \"Profile\" and \"Sign Out\" buttons to your logged-in users."
 msgstr ""
 
 #: _theme/customizer/options.php:418
@@ -833,12 +446,14 @@ msgstr ""
 msgid "Product Upsells"
 msgstr ""
 
-#: _theme/customizer/options.php:465 _theme/customizer/options.php:477
+#: _theme/customizer/options.php:465
+#: _theme/customizer/options.php:477
 #: _theme/meta/page-meta.php:233
 msgid "Show"
 msgstr ""
 
-#: _theme/customizer/options.php:466 _theme/customizer/options.php:478
+#: _theme/customizer/options.php:466
+#: _theme/customizer/options.php:478
 #: _theme/meta/page-meta.php:234
 msgid "Hide"
 msgstr ""
@@ -847,43 +462,53 @@ msgstr ""
 msgid "Related Products"
 msgstr ""
 
-#: _theme/customizer/options.php:556 _theme/meta/page-meta.php:324
+#: _theme/customizer/options.php:556
+#: _theme/meta/page-meta.php:324
 msgid "Breadcrumbs"
 msgstr ""
 
-#: _theme/customizer/options.php:569 _theme/meta/page-meta.php:309
+#: _theme/customizer/options.php:569
+#: _theme/meta/page-meta.php:309
 msgid "Page Title"
 msgstr ""
 
-#: _theme/customizer/options.php:582 _theme/meta/page-meta.php:275
+#: _theme/customizer/options.php:582
+#: _theme/meta/page-meta.php:275
 msgid "Content Width"
 msgstr ""
 
-#: _theme/customizer/options.php:589 _theme/meta/page-meta.php:255
+#: _theme/customizer/options.php:589
+#: _theme/meta/page-meta.php:255
 msgid "Full-Width"
 msgstr ""
 
-#: _theme/customizer/options.php:590 _theme/meta/page-meta.php:256
+#: _theme/customizer/options.php:590
+#: _theme/meta/page-meta.php:256
 msgid "1100px"
 msgstr ""
 
-#: _theme/customizer/options.php:591 _theme/meta/page-meta.php:257
+#: _theme/customizer/options.php:591
+#: _theme/meta/page-meta.php:257
 msgid "1000px"
 msgstr ""
 
-#: _theme/customizer/options.php:592 _theme/meta/page-meta.php:258
+#: _theme/customizer/options.php:592
+#: _theme/meta/page-meta.php:258
 msgid "900px"
 msgstr ""
 
-#: _theme/customizer/options.php:593 _theme/meta/page-meta.php:259
+#: _theme/customizer/options.php:593
+#: _theme/meta/page-meta.php:259
 msgid "800px"
 msgstr ""
 
-#: _theme/customizer/options.php:594 _theme/meta/page-meta.php:260
+#: _theme/customizer/options.php:594
+#: _theme/meta/page-meta.php:260
 msgid "700px"
 msgstr ""
 
-#: _theme/customizer/options.php:595 _theme/meta/page-meta.php:261
+#: _theme/customizer/options.php:595
+#: _theme/meta/page-meta.php:261
 msgid "600px"
 msgstr ""
 
@@ -1211,15 +836,18 @@ msgstr ""
 msgid "Left Content"
 msgstr ""
 
-#: _theme/customizer/options.php:1126 _theme/customizer/options.php:1148
+#: _theme/customizer/options.php:1126
+#: _theme/customizer/options.php:1148
 msgid "Nothing"
 msgstr ""
 
-#: _theme/customizer/options.php:1127 _theme/customizer/options.php:1149
+#: _theme/customizer/options.php:1127
+#: _theme/customizer/options.php:1149
 msgid "Text/HTML"
 msgstr ""
 
-#: _theme/customizer/options.php:1128 _theme/customizer/options.php:1150
+#: _theme/customizer/options.php:1128
+#: _theme/customizer/options.php:1150
 msgid "Social Icons"
 msgstr ""
 
@@ -1251,9 +879,10 @@ msgstr ""
 msgid "Inline Image"
 msgstr ""
 
-#: _theme/meta/page-meta.php:175 _theme/meta/page-meta.php:265
-#: _theme/meta/page-meta.php:312 _theme/meta/page-meta.php:327
-#, php-format
+#: _theme/meta/page-meta.php:175
+#: _theme/meta/page-meta.php:265
+#: _theme/meta/page-meta.php:312
+#: _theme/meta/page-meta.php:327
 msgid "Default (%s)"
 msgstr ""
 
@@ -1273,7 +902,8 @@ msgstr ""
 msgid "Add Recipes"
 msgstr ""
 
-#: _theme/meta/page-meta.php:237 _theme/widgets/init.php:57
+#: _theme/meta/page-meta.php:237
+#: _theme/widgets/init.php:57
 msgid "Homepage Content"
 msgstr ""
 
@@ -1282,9 +912,7 @@ msgid "Sidebar"
 msgstr ""
 
 #: _theme/meta/page-meta.php:298
-msgid ""
-"You can choose a custom sidebar for this page, or disable the sidebar all-"
-"together."
+msgid "You can choose a custom sidebar for this page, or disable the sidebar all-together."
 msgstr ""
 
 #: _theme/parts/header.php:86
@@ -1300,7 +928,6 @@ msgid "Sign In"
 msgstr ""
 
 #: _theme/widgets/init.php:25
-#, php-format
 msgid "Sidebar (%s)"
 msgstr ""
 
@@ -1332,8 +959,10 @@ msgstr ""
 msgid "Footer Column 1"
 msgstr ""
 
-#: _theme/widgets/init.php:69 _theme/widgets/init.php:79
-#: _theme/widgets/init.php:89 _theme/widgets/init.php:99
+#: _theme/widgets/init.php:69
+#: _theme/widgets/init.php:79
+#: _theme/widgets/init.php:89
+#: _theme/widgets/init.php:99
 msgid "Add widgets here to appear in your footer."
 msgstr ""
 
@@ -1349,371 +978,26 @@ msgstr ""
 msgid "Footer Column 4"
 msgstr ""
 
-#: comments.php:11
-msgid "One Comment"
+#: _theme/_templates/blog.php:16
+#: _theme/_templates/loop.php:12
+msgid "Previous page"
 msgstr ""
 
-#: comments.php:11
-#, php-format
-msgid "%s Comments"
+#: _theme/_templates/blog.php:17
+#: _theme/_templates/loop.php:13
+msgid "Next page"
 msgstr ""
 
-#: comments.php:26
-msgid "Comments are closed."
+#: _theme/_templates/blog.php:18
+#: _theme/_templates/loop.php:14
+msgid "Page"
 msgstr ""
 
-#: functions.php:207
-#, php-format
-msgid "Search Results for: %s"
+#: _theme/_templates/content.php:36
+#: _theme/_templates/content.php:50
+msgid "Continue Reading"
 msgstr ""
 
-#: functions.php:209
-msgid "Nothing Found"
-msgstr ""
-
-#: functions.php:305
-msgid "Posted on"
-msgstr ""
-
-#: functions.php:308
-msgctxt "by Author Name"
-msgid "by"
-msgstr ""
-
-#: functions.php:309
-msgid "Author"
-msgstr ""
-
-#: functions.php:334
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr ""
-
-#: functions.php:342
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr ""
-
-#: searchform.php:2 vendor/htmlburger/carbon-fields/core/Loader/Loader.php:170
-msgid "Search..."
-msgstr ""
-
-#: searchform.php:3
-msgctxt "Submit Button"
-msgid "Search"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Container/Theme_Options_Container.php:207
-msgid "Settings saved."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Field/Footer_Scripts_Field.php:20
-msgid ""
-"If you need to add scripts to your footer (like Google Analytics tracking "
-"code), you should enter them in this box."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Field/Gravity_Form_Field.php:47
-msgid "No form"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Field/Header_Scripts_Field.php:20
-msgid "If you need to add scripts to your header, you should enter them here."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Field/Sidebar_Field.php:74
-msgctxt "sidebar"
-msgid "Add New"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:69
-msgid "Please enter a name for the sidebar."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:72
-msgid "Unknown action attempted."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:102
-msgid "Sidebar with the same ID is already registered."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:112
-#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:142
-msgid ""
-"Failed to update option storing your custom sidebars. Please contact support."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:137
-msgid "Sidebar not found."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:181
-msgid "Add Sidebar"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:182
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:154
-msgid "Please enter the name of the new sidebar:"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:183
-msgid "Are you sure you wish to remove this sidebar?"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:129
-msgid "Please fill out all required fields highlighted below."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:130
-msgid "The changes you made will be lost if you navigate away from this page."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:134
-msgid "The address could not be found. "
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:135
-msgid "Geocode was not successful for the following reason: "
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:136
-msgid "Locate address on the map:"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:137
-#, php-format
-msgid "Minimum number of items not reached (%s items)"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:138
-#, php-format
-msgid "Maximum number of items reached (%s items)"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:140
-#, php-format
-msgid "There are no %s yet. Click <a href=\"#\">here</a> to add one."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:141
-#, php-format
-msgid "Minimum number of rows not reached (%1$d %2$s)"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:142
-#, php-format
-msgid "Maximum number of rows exceeded (%1$d %2$s)"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:143
-#, php-format
-msgctxt "Complex field"
-msgid "Add %s"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:144
-msgctxt "Complex field"
-msgid "Clone"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:145
-msgctxt "Complex field"
-msgid "Remove"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:146
-msgctxt "Complex field"
-msgid "Collapse/Expand"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:147
-msgctxt "Complex field groups"
-msgid "Collapse All"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:148
-msgctxt "Complex field groups"
-msgid "Expand All"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:150
-msgid "Please fill out all fields correctly. "
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:151
-msgid "This field is required. "
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:152
-msgid "Please choose an option. "
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:156
-msgid "Select Time"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:157
-msgid "Select Date"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:159
-#, php-format
-msgid "%1$d selected item"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:160
-#, php-format
-msgid "%1$d selected items"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:161
-#, php-format
-msgid "%1$d selected item out of %2$d"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:162
-#, php-format
-msgid "%1$d selected items out of %2$d"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:164
-msgid "Select a color"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:166
-msgid "No options."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:168
-msgid "Show all options"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:172
-msgctxt "WordPress media attachment"
-msgid "URL"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:173
-msgctxt "WordPress media attachment"
-msgid "Title"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:174
-msgctxt "WordPress media attachment"
-msgid "Artist"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:175
-msgctxt "WordPress media attachment"
-msgid "Album"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:176
-msgctxt "WordPress media attachment"
-msgid "Caption"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:177
-msgctxt "WordPress media attachment"
-msgid "Alt Text"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:178
-msgctxt "WordPress media attachment"
-msgid "Description"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:179
-msgctxt "WordPress media attachment"
-msgid "Close"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:180
-msgctxt "WordPress media attachment"
-msgid "Save"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:182
-msgctxt "oEmbed field"
-msgid "Not Found"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:184
-msgid "No files selected."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:185
-msgid "Add File"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:186
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:190
-msgctxt "WordPress Media Browser"
-msgid "Files"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:187
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:191
-msgctxt "WordPress Media Browser"
-msgid "Select File"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:189
-msgid "Select File"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:193
-msgid "Select Image"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:194
-msgctxt "WordPress Media Browser"
-msgid "Images"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/Loader/Loader.php:195
-msgctxt "WordPress Media Browser"
-msgid "Select Image"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:287
-msgid "No option names provided"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:298
-msgid "Theme Options updated."
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:34
-msgid "Actions"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:43
-msgid "Save Changes"
-msgstr ""
-
-#: vendor/htmlburger/carbon-fields/templates/Container/widget.php:4
-msgid "No options are available for this widget."
-msgstr ""
-
-#. Theme Name of the plugin/theme
-msgid "Basil"
-msgstr ""
-
-#. Theme URI of the plugin/theme
-msgid "https://demos.boxystudio.com/basil/"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"A modern and customizable recipe theme for WordPress, powered by Cooked."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Boxy Studio"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://www.boxystudio.com"
+#: _theme/_templates/content.php:41
+msgid "Pages:"
 msgstr ""
