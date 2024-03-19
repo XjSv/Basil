@@ -423,7 +423,6 @@ h2.widget-title { font-size:1.2rem; font-weight:600; letter-spacing:0.03rem; mar
 Homepage Widgets
 +++++++++++++++++++++++++++ */
 #basil-homepage-widgets .widget { padding:0; }
-/* #basil-homepage-widgets .carbon_fields_basil_homepage_parallax { border:none; background-color:transparent !important; padding:0 !important; margin:0; } */
 .basil-parallax-widget { width:100%; position:relative; background:transparent; }
 .basil-parallax-widget .basil-parallax-overlay { width:100%; height:100%; position:absolute; top:0; left:0; }
 .basil-parallax-widget .basil-shell { padding:0; }
@@ -431,7 +430,6 @@ Homepage Widgets
 .basil-parallax-widget .basil-parallax-content { text-align:center; line-height:1.6; margin:1rem 0; }
 .basil-parallax-widget .basil-parallax-content a:hover { text-decoration:underline; }
 
-/* #basil-homepage-widgets .carbon_fields_basil_homepage_content_columns { padding:0 !important; border:none; } */
 .basil-column-content-widget { width:100%; margin:0; padding:3rem 0; }
 .basil-column-content-widget .basil-shell { display:flex; justify-content:center; max-width:calc(1100px + 3% ); }
 .basil-column-content-widget .basil-column-content-column { width:100%; padding:0 2%; box-sizing:border-box; }
@@ -439,7 +437,6 @@ Homepage Widgets
 .basil-column-content-widget .basil-column-content-title { margin:0 0 1.25rem; }
 .basil-column-content-widget .basil-column-content-content p { margin:0 0 1rem; }
 
-/* #basil-homepage-widgets .carbon_fields_basil_homepage_blog_posts { padding:0 !important; border:none; } */
 .basil-blog-posts-widget { width:100%; margin:0; padding:0; }
 .basil-blog-posts-widget .basil-shell { display:flex; flex-wrap:wrap; justify-content:center; max-width:calc(1100px + 1.5% ); padding:3rem 0 0; }
 .basil-blog-posts-widget .basil-blog-posts-single { display:block; padding:0 1% 2%; width:31.333%; }
@@ -460,7 +457,6 @@ Homepage Widgets
 .basil-blog-posts-widget .basil-blog-card:hover .basil-blog-posts-overlay::after { opacity:1; transform:scale(1.1) }
 .basil-blog-posts-widget .basil-blog-card:hover .has-image .basil-blog-posts-overlay { opacity:0.9; }
 
-/* #basil-homepage-widgets .carbon_fields_basil_homepage_recipes { padding:0 !important; border:none; } */
 .basil-recipes-widget { width:100%; margin:0; padding:3rem 0; }
 .basil-recipes-widget .basil-shell { max-width:calc(1100px + 3% ); }
 .basil-recipes-widget .basil-recipes-title { text-align:center; line-height:1.4; padding:0; margin:1rem 0; }

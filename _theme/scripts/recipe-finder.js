@@ -25,7 +25,6 @@
 
                 if ( value == null ){
                     if ( page_setting_top_value ){
-                        //console.log( page_setting_top_value );
                         $( '#basil_page_settings_page_thumbnail_layout' ).val( page_setting_top_value );
                     }
                 } else {
@@ -33,7 +32,6 @@
                     if ( current_value != 'recipe_slider' ){
                         page_setting_top_value = current_value;
                     }
-                    //console.log( page_setting_top_value );
                     $( '#basil_page_settings_page_thumbnail_layout' ).val('recipe_slider');
                 }
 
