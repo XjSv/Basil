@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use basil, please cite it using the following metadata"
+title: basil
+authors:
+  - family-names: Scheetz
+    given-names: Justin
+  - family-names: Tresova
+    given-names: Armand
+version: 1.8.0
+doi: 10.5281/zenodo.1171250
+date-released: 2017-05-08
+url: "https://github.com/XjSv/basil"

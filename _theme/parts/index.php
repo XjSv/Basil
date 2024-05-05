@@ -26,7 +26,7 @@ if ( !is_front_page() || is_front_page() && isset($bx_page_settings['homepage_co
 	?><section id="basil-main"<?php echo ( isset($bx_page_settings['page_content']) && isset($bx_options['basil_content']) && $bx_page_settings['page_content'] != $bx_options['basil_content'] ? ' class="bx-width-' . $bx_page_settings['page_content'] . '"' : '' ); ?>>
 		<div class="basil-shell bx-clearfix">
 
-			<section class="basil-main-template <?php echo ( $sidebar_setting['sidebar'] && $sidebar_setting['sidebar'] != 'homepage-widgets' ? 'basil-has-sidebar' : '' ); ?>"><?php
+			<section class="basil-main-template <?php echo ( isset($sidebar_setting['sidebar']) && $sidebar_setting['sidebar'] != 'homepage-widgets' ? 'basil-has-sidebar' : '' ); ?>"><?php
 
 				do_action( 'basil_before_main_template' );
 

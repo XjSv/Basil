@@ -31,6 +31,12 @@ We welcome contributions from the community! If you'd like to contribute to Basi
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a Pull Request describing your changes.
 
+### Development
+#### Generateing language files
+``` bash
+wp i18n make-pot /wp-content/themes/basil/ /wp-content/themes/basil/languages/basil.pot
+```
+
 ## Documentation
 
 Detailed documentation for Basil can be found in the [wiki](https://github.com/XjSv/Basil/wiki).
@@ -46,11 +52,3 @@ Basil is released under the [GPL-3.0 License](https://github.com/XjSv/Basil/blob
 ## Credits
 
 Basil was created by [Boxy Studio](https://www.boxystudio.com) and is now maintained by a team of contributors.
-
-## Generating Language Files
-
-To generate language files for the Basil theme, you can use the following command:
-
-```bash
-ddev wp i18n make-pot /var/www/html/wp-content/themes/basil/ /var/www/html/wp-content/themes/basil/languages/basil.pot
-```
