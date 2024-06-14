@@ -4,8 +4,8 @@ global $bx_options;
 
 /* Theme Specific Defaults */
 define( 'BX_THEME_SLUG', 'basil' );
-define( 'BX_THEME_VERSION', '2.0.4' );
-define( 'BASIL_CP_VERSION', '1.7.5.8' );
+define( 'BX_THEME_VERSION', '2.0.5' );
+define( 'BASIL_CP_VERSION', '1.7.6' );
 
 /* Theme Framework Defaults */
 define( 'BX_BASE_DIR', trailingslashit( get_template_directory() ) );
@@ -210,7 +210,7 @@ function basil_the_title( $before, $after ) {
         endif;
     else:
 
-        global $bx_options,$post;
+        global $bx_options, $post;
 
         if ( empty($post) )
             return;
@@ -221,15 +221,15 @@ function basil_the_title( $before, $after ) {
 
         if ( !in_the_loop() && is_archive() ):
             if ( $title_setting == 'enabled' || !$title_setting && $default_option == 'enabled' ):
-                the_archive_title( $before, $after );
+                esc_html(the_archive_title($before, $after));
             endif;
         elseif ( $title_setting == 'enabled' || !$title_setting && $default_option == 'enabled' ):
-            the_title( $before, $after );
+            echo $before . esc_html( the_title('', '', false) ) . $after;
         endif;
 
     endif;
-    return false;
 
+    return false;
 }
 
 function basil_page_thumbnail() {
