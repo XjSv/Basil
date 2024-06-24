@@ -2,7 +2,7 @@
 Tags: recipe, recipes, food, cooking, chef, culinary, nutrition, seo
 Requires at least: 4.7
 Stable tag: 2.0.5
-Tested up to: 6.5.4
+Tested up to: 6.5.5
 Requires PHP: 7.4
 
 == Changelog ==
