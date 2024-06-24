@@ -8,7 +8,7 @@
 
 		<h2 class="basil-comments-title"><?php
 			$comments_number = get_comments_number();
-			echo sprintf( _n( esc_html__( 'One Comment', 'basil' ), esc_html__( '%s Comments', 'basil' ), $comments_number ), number_format_i18n( $comments_number ) );
+			echo sprintf( _n( __( 'One Comment', 'basil' ), __( '%s Comments', 'basil' ), $comments_number ), number_format_i18n( $comments_number ) );
 		?></h2>
 
 		<ol class="basil-comment-list"><?php

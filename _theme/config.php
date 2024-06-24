@@ -66,8 +66,8 @@ function bx_setup_theme() {
 	 * Theme Support - Menus
 	 */
 	register_nav_menus(array(
-		'main-menu' => esc_html__('Main Menu', 'basil'),
-		'mobile-menu' => esc_html__( 'Mobile Menu','basil' )
+		'main-menu' => __('Main Menu', 'basil'),
+		'mobile-menu' => __( 'Mobile Menu','basil' )
 	));
 
 	/**

@@ -18,9 +18,9 @@ function boxy_year_shortcode() {
 function bx_get_google_fonts( $type = 'detailed' ) {
 	$bx_font_array = [];
 
-	$bx_font_array['system']['family'] = esc_html__( 'System Font (WordPress Default)', 'basil');
+	$bx_font_array['system']['family'] = __( 'System Font (WordPress Default)', 'basil');
 	$bx_font_array['system']['variants'] = [];
-    $bx_font_simple_array['system'] = esc_html__( 'System Font (WordPress Default)', 'basil');
+    $bx_font_simple_array['system'] = __( 'System Font (WordPress Default)', 'basil');
 
     $bx_google_fonts_static = array(
         'system' =>
@@ -17778,31 +17778,31 @@ function bx_breadcrumbs() {
             // Day archive
 
             // Year link
-            echo '<li class="bx-item-year bx-item-year-' . get_the_time('Y') . '"><a class="bx-bread-year bx-bread-year-' . get_the_time('Y') . '" href="' . get_year_link( get_the_time('Y') ) . '" title="' . get_the_time('Y') . '">' . sprintf( esc_html__( '%s Archives', 'basil' ), get_the_time('Y') ) . '</a></li>';
+            echo '<li class="bx-item-year bx-item-year-' . get_the_time('Y') . '"><a class="bx-bread-year bx-bread-year-' . get_the_time('Y') . '" href="' . get_year_link( get_the_time('Y') ) . '" title="' . get_the_time('Y') . '">' . sprintf( __( '%s Archives', 'basil' ), get_the_time('Y') ) . '</a></li>';
             echo '<li class="bx-separator bx-separator-' . get_the_time('Y') . '"> ' . $separator . ' </li>';
 
             // Month link
-            echo '<li class="bx-item-month bx-item-month-' . get_the_time('m') . '"><a class="bread-month bx-bread-month-' . get_the_time('m') . '" href="' . get_month_link( get_the_time('Y'), get_the_time('m') ) . '" title="' . get_the_time('M') . '">' . sprintf( esc_html__( '%s Archives', 'basil' ), get_the_time('M') ) . '</a></li>';
+            echo '<li class="bx-item-month bx-item-month-' . get_the_time('m') . '"><a class="bread-month bx-bread-month-' . get_the_time('m') . '" href="' . get_month_link( get_the_time('Y'), get_the_time('m') ) . '" title="' . get_the_time('M') . '">' . sprintf( __( '%s Archives', 'basil' ), get_the_time('M') ) . '</a></li>';
             echo '<li class="bx-separator bx-separator-' . get_the_time('m') . '"> ' . $separator . ' </li>';
 
             // Day display
-           // echo '<li class="bx-item-current bx-item-' . get_the_time('j') . '"><span class="bx-bread-current bx-bread-' . get_the_time('j') . '"> ' . sprintf( esc_html__( '%s Archives', 'basil' ), get_the_time('jS') . ' ' . get_the_time('M') ) . '</strong></li>';
+           // echo '<li class="bx-item-current bx-item-' . get_the_time('j') . '"><span class="bx-bread-current bx-bread-' . get_the_time('j') . '"> ' . sprintf( __( '%s Archives', 'basil' ), get_the_time('jS') . ' ' . get_the_time('M') ) . '</strong></li>';
 
         } else if ( is_month() ) {
 
             // Month Archive
 
             // Year link
-            echo '<li class="bx-item-year bx-item-year-' . get_the_time('Y') . '"><a class="bx-bread-year bx-bread-year-' . get_the_time('Y') . '" href="' . get_year_link( get_the_time('Y') ) . '" title="' . get_the_time('Y') . '">' . sprintf( esc_html__( '%s Archives', 'basil' ), get_the_time('Y') ) . '</a></li>';
+            echo '<li class="bx-item-year bx-item-year-' . get_the_time('Y') . '"><a class="bx-bread-year bx-bread-year-' . get_the_time('Y') . '" href="' . get_year_link( get_the_time('Y') ) . '" title="' . get_the_time('Y') . '">' . sprintf( __( '%s Archives', 'basil' ), get_the_time('Y') ) . '</a></li>';
             echo '<li class="bx-separator bx-separator-' . get_the_time('Y') . '"> ' . $separator . ' </li>';
 
             // Month display
-            echo '<li class="bx-item-month bx-item-month-' . get_the_time('m') . '"><span class="bx-bread-month bx-bread-month-' . get_the_time('m') . '" title="' . get_the_time('M') . '">' . sprintf( esc_html__( '%s Archives', 'basil' ), get_the_time('M') ) . '</span></li>';
+            echo '<li class="bx-item-month bx-item-month-' . get_the_time('m') . '"><span class="bx-bread-month bx-bread-month-' . get_the_time('m') . '" title="' . get_the_time('M') . '">' . sprintf( __( '%s Archives', 'basil' ), get_the_time('M') ) . '</span></li>';
 
         } else if ( is_year() ) {
 
             // Display year archive
-            //echo '<li class="bx-item-current bx-item-current-' . get_the_time('Y') . '"><span class="bx-bread-current bx-bread-current-' . get_the_time('Y') . '" title="' . get_the_time('Y') . '">' . sprintf( esc_html__( '%s Archives', 'basil' ), get_the_time('Y') ) . '</span></li>';
+            //echo '<li class="bx-item-current bx-item-current-' . get_the_time('Y') . '"><span class="bx-bread-current bx-bread-current-' . get_the_time('Y') . '" title="' . get_the_time('Y') . '">' . sprintf( __( '%s Archives', 'basil' ), get_the_time('Y') ) . '</span></li>';
 
         } else if ( is_author() ) {
 
@@ -17813,17 +17813,17 @@ function bx_breadcrumbs() {
             $userdata = get_userdata( $author );
 
             // Display author name
-            //echo '<li class="bx-item-current bx-item-current-' . $userdata->user_nicename . '"><span class="bx-bread-current bx-bread-current-' . $userdata->user_nicename . '" title="' . $userdata->display_name . '">' . sprintf( esc_html__( 'Author: %s', 'basil' ), $userdata->display_name ) . '</span></li>';
+            //echo '<li class="bx-item-current bx-item-current-' . $userdata->user_nicename . '"><span class="bx-bread-current bx-bread-current-' . $userdata->user_nicename . '" title="' . $userdata->display_name . '">' . sprintf( __( 'Author: %s', 'basil' ), $userdata->display_name ) . '</span></li>';
 
         } else if ( get_query_var('paged') ) {
 
             // Paginated archives
-            //echo '<li class="bx-item-current bx-item-current-' . get_query_var('paged') . '"><span class="bx-bread-current bx-bread-current-' . get_query_var('paged') . '" title="Page ' . get_query_var('paged') . '">' . sprintf( esc_html__( 'Page %s', 'basil' ), get_query_var('paged') ) . '</span></li>';
+            //echo '<li class="bx-item-current bx-item-current-' . get_query_var('paged') . '"><span class="bx-bread-current bx-bread-current-' . get_query_var('paged') . '" title="Page ' . get_query_var('paged') . '">' . sprintf( __( 'Page %s', 'basil' ), get_query_var('paged') ) . '</span></li>';
 
         } else if ( is_search() ) {
 
             // Search results page
-            echo '<li class="bx-item-current bx-item-current-' . get_search_query() . '"><span class="bx-bread-current bx-bread-current-' . get_search_query() . '" title="Search results for: ' . get_search_query() . '">' . sprintf( esc_html__( 'Search results for: "%s"', 'basil' ), get_search_query() ) . '</span></li>';
+            echo '<li class="bx-item-current bx-item-current-' . get_search_query() . '"><span class="bx-bread-current bx-bread-current-' . get_search_query() . '" title="Search results for: ' . get_search_query() . '">' . sprintf( __( 'Search results for: "%s"', 'basil' ), get_search_query() ) . '</span></li>';
 
         } elseif ( is_404() ) {
 

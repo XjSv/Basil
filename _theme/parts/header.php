@@ -83,12 +83,12 @@ endif;
 
 							if ( is_user_logged_in() ):
 
-								echo '<div class="basil-profile-button"><a class="bx-button" href="' . esc_url( get_permalink( $_cooked_settings['profile_page'] ) ) . '">' . esc_html__( 'Profile', 'basil' ) . '</a></div>';
-								echo '<div class="basil-signout-button"><a class="bx-button bx-button-alt" href="' . esc_url( wp_logout_url( get_home_url() ) ) . '">' . esc_html__( 'Sign Out', 'basil' ) . '</a></div>';
+								echo '<div class="basil-profile-button"><a class="bx-button" href="' . esc_url( get_permalink( $_cooked_settings['profile_page'] ) ) . '">' . __( 'Profile', 'basil' ) . '</a></div>';
+								echo '<div class="basil-signout-button"><a class="bx-button bx-button-alt" href="' . esc_url( wp_logout_url( get_home_url() ) ) . '">' . __( 'Sign Out', 'basil' ) . '</a></div>';
 
 							else:
 
-								echo '<div class="basil-profile-button"><a class="bx-button" href="' . esc_url( get_permalink( $_cooked_settings['profile_page'] ) ) . '">' . esc_html__( 'Sign In', 'basil' ) . '</a></div>';
+								echo '<div class="basil-profile-button"><a class="bx-button" href="' . esc_url( get_permalink( $_cooked_settings['profile_page'] ) ) . '">' . __( 'Sign In', 'basil' ) . '</a></div>';
 
 							endif;
 

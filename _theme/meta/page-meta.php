@@ -164,15 +164,15 @@ function basil_render_page_fields( $post_id ) {
             $this_setting = ( isset( $bx_page_settings['page_thumbnail_layout'] ) && $bx_page_settings['page_thumbnail_layout'] ? $bx_page_settings['page_thumbnail_layout'] : false );
 
             $thumbnail_layout_options = array(
-                'disabled'          => esc_html__('Disabled','basil'),
-                'page_banner'       => esc_html__('Image Banner w/Title','basil'),
-                'page_banner_blank' => esc_html__('Image Banner w/o Title','basil'),
-                'inline'            => esc_html__('Inline Image','basil'),
-                'recipe_slider'     => esc_html__('Recipe Slider','basil')
+                'disabled'          => __('Disabled','basil'),
+                'page_banner'       => __('Image Banner w/Title','basil'),
+                'page_banner_blank' => __('Image Banner w/o Title','basil'),
+                'inline'            => __('Inline Image','basil'),
+                'recipe_slider'     => __('Recipe Slider','basil')
             );
 
             if ( isset( $thumbnail_layout_options[$default_setting] ) ):
-                $default_setting_array = sprintf( esc_html__('Default (%s)','basil'), ( $thumbnail_layout_options[$default_setting] ? $thumbnail_layout_options[$default_setting] : $thumbnail_layout_options['page_banner'] ) );
+                $default_setting_array = sprintf( __('Default (%s)','basil'), ( $thumbnail_layout_options[$default_setting] ? $thumbnail_layout_options[$default_setting] : $thumbnail_layout_options['page_banner'] ) );
                 array_unshift( $thumbnail_layout_options, $default_setting_array );
                 unset( $thumbnail_layout_options[$default_setting] );
                 $new_default[$default_setting] = $thumbnail_layout_options[0];
@@ -230,8 +230,8 @@ function basil_render_page_fields( $post_id ) {
                 // Homepage Widgets
                 $this_setting = ( isset( $bx_page_settings['homepage_content'] ) && $bx_page_settings['homepage_content'] ? $bx_page_settings['homepage_content'] : false );
                 $homepage_content_options = array(
-                    'show'     => esc_html__('Show','basil'),
-                    'hide'    => esc_html__('Hide','basil')
+                    'show'     => __('Show','basil'),
+                    'hide'    => __('Hide','basil')
                 );
 
                 ?><tr><th scope="row"><label for="basil_page_settings_homepage_content"><?php esc_html_e('Homepage Content','basil'); ?></label></th>
@@ -252,17 +252,17 @@ function basil_render_page_fields( $post_id ) {
 			$this_setting = ( isset( $bx_page_settings['page_content'] ) && $bx_page_settings['page_content'] ? $bx_page_settings['page_content'] : false );
 
 			$content_options = apply_filters( 'boxy_content_width_options', array(
-               	'full'          	=> esc_html__('Full-Width','basil'),
-	            'default'           => esc_html__('1100px','basil'),
-	            '1000px'              => esc_html__('1000px','basil'),
-	            '900px'               => esc_html__('900px','basil'),
-	            '800px'               => esc_html__('800px','basil'),
-	            '700px'               => esc_html__('700px','basil'),
-	            '600px'               => esc_html__('600px','basil')
+               	'full'          	=> __('Full-Width','basil'),
+	            'default'           => __('1100px','basil'),
+	            '1000px'              => __('1000px','basil'),
+	            '900px'               => __('900px','basil'),
+	            '800px'               => __('800px','basil'),
+	            '700px'               => __('700px','basil'),
+	            '600px'               => __('600px','basil')
 	        ));
 
 			if ( isset( $content_options[$default_setting] ) ):
-            	$default_setting_array = sprintf( esc_html__('Default (%s)','basil'), ( $content_options[$default_setting] ? $content_options[$default_setting] : $content_options['default'] ) );
+            	$default_setting_array = sprintf( __('Default (%s)','basil'), ( $content_options[$default_setting] ? $content_options[$default_setting] : $content_options['default'] ) );
             	array_unshift( $content_options, $default_setting_array );
             	unset( $content_options[$default_setting] );
 
@@ -309,9 +309,9 @@ function basil_render_page_fields( $post_id ) {
 			?><tr><th scope="row"><label for="basil_page_settings_title"><?php esc_html_e('Page Title','basil'); ?></label></th>
 				<td>
 					<select id="basil_page_settings_title" name="_basil_page_settings[title]">
-						<option value="0"><?php echo sprintf( esc_html__( 'Default (%s)', 'basil' ), ( $default_setting == 'enabled' || !$default_setting ? esc_html__('Enabled','basil') : esc_html__('Disabled','basil') ) ); ?></option>
-						<?php echo ( $default_setting == 'disabled' ? '<option value="enabled"' . ( $this_setting == 'enabled' ? ' selected' : '' ) . '>' . esc_html__( 'Enabled', 'basil' ) . '</option>' : '' ); ?>
-						<?php echo ( $default_setting == 'enabled' || !$default_setting ? '<option value="disabled"' . ( $this_setting == 'disabled' ? ' selected' : '' ) . '>' . esc_html__( 'Disabled', 'basil' ) . '</option>' : '' ); ?>
+						<option value="0"><?php echo sprintf( __( 'Default (%s)', 'basil' ), ( $default_setting == 'enabled' || !$default_setting ? __('Enabled','basil') : __('Disabled','basil') ) ); ?></option>
+						<?php echo ( $default_setting == 'disabled' ? '<option value="enabled"' . ( $this_setting == 'enabled' ? ' selected' : '' ) . '>' . __( 'Enabled', 'basil' ) . '</option>' : '' ); ?>
+						<?php echo ( $default_setting == 'enabled' || !$default_setting ? '<option value="disabled"' . ( $this_setting == 'disabled' ? ' selected' : '' ) . '>' . __( 'Disabled', 'basil' ) . '</option>' : '' ); ?>
 					</select>
 				</td>
 			</tr><?php
@@ -324,9 +324,9 @@ function basil_render_page_fields( $post_id ) {
 			?><tr><th scope="row"><label for="basil_page_settings_breadcrumbs"><?php esc_html_e('Breadcrumbs','basil'); ?></label></th>
 				<td>
 					<select id="basil_page_settings_breadcrumbs" name="_basil_page_settings[breadcrumbs]">
-						<option value="0"><?php echo sprintf( esc_html__( 'Default (%s)', 'basil' ), ( $default_setting == 'enabled' || !$default_setting ? esc_html__('Enabled','basil') : esc_html__('Disabled','basil') ) ); ?></option>
-						<?php echo ( $default_setting == 'disabled' ? '<option value="enabled"' . ( $this_setting == 'enabled' ? ' selected' : '' ) . '>' . esc_html__( 'Enabled', 'basil' ) . '</option>' : '' ); ?>
-						<?php echo ( $default_setting == 'enabled' || !$default_setting ? '<option value="disabled"' . ( $this_setting == 'disabled' ? ' selected' : '' ) . '>' . esc_html__( 'Disabled', 'basil' ) . '</option>' : '' ); ?>
+						<option value="0"><?php echo sprintf( __( 'Default (%s)', 'basil' ), ( $default_setting == 'enabled' || !$default_setting ? __('Enabled','basil') : __('Disabled','basil') ) ); ?></option>
+						<?php echo ( $default_setting == 'disabled' ? '<option value="enabled"' . ( $this_setting == 'enabled' ? ' selected' : '' ) . '>' . __( 'Enabled', 'basil' ) . '</option>' : '' ); ?>
+						<?php echo ( $default_setting == 'enabled' || !$default_setting ? '<option value="disabled"' . ( $this_setting == 'disabled' ? ' selected' : '' ) . '>' . __( 'Disabled', 'basil' ) . '</option>' : '' ); ?>
 					</select>
 				</td>
 			</tr>

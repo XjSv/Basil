@@ -47,7 +47,7 @@ class WPC_Customize_Categories_Control extends WP_Customize_Control {
             array(
                 'name'              => '_customize-dropdown-categories-' . $this->id,
                 'echo'              => 0,
-                'show_option_none'  => '&mdash; ' . esc_html__( 'Select', 'basil' ) . ' &mdash;',
+                'show_option_none'  => '&mdash; ' . __( 'Select', 'basil' ) . ' &mdash;',
                 'option_none_value' => '0',
                 'hierarchical'      => 1,
                 'selected'          => $this->value(),
