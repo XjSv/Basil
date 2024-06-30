@@ -13,9 +13,9 @@ echo '<div class="basil-blog-posts' . ( isset( $bx_page_settings['page_thumbnail
     	endwhile;
 
     	the_posts_pagination( array(
-    		'prev_text'          => esc_html__( 'Previous page', 'basil' ),
-    		'next_text'          => esc_html__( 'Next page', 'basil' ),
-    		'before_page_number' => '<span class="meta-nav screen-reader-text">' . esc_html__( 'Page', 'basil' ) . ' </span>',
+    		'prev_text'          => __( 'Previous page', 'basil' ),
+    		'next_text'          => __( 'Next page', 'basil' ),
+    		'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'basil' ) . ' </span>',
     	) );
 
     else :

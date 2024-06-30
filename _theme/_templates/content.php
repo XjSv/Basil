@@ -33,7 +33,7 @@
 		if ( is_singular() ):
 
 			the_content( sprintf(
-				esc_html__( 'Continue Reading','basil' ) . '<span class="screen-reader-text"> "%s"</span>',
+				__( 'Continue Reading','basil' ) . '<span class="screen-reader-text"> "%s"</span>',
 				get_the_title()
 			) );
 
@@ -47,7 +47,7 @@
 		else:
 
 			basil_excerpt();
-			?><a href="<?php the_permalink(); ?>" class="bx-button bx-button-bordered more-link"><?php echo esc_html__( 'Continue Reading','basil' ); ?></a><?php
+			?><a href="<?php the_permalink(); ?>" class="bx-button bx-button-bordered more-link"><?php echo __( 'Continue Reading','basil' ); ?></a><?php
 
 		endif;
 

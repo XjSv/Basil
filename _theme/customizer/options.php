@@ -36,7 +36,7 @@ $options = array();
     Panels
 --------------------------------------------------------------------------------------------------- */
 
-$options[] = array( 'title'             => esc_html__( 'Theme Settings', 'basil' ), // Panel name
+$options[] = array( 'title'             => __( 'Theme Settings', 'basil' ), // Panel name
                     'id'                => BX_THEME_SLUG . '_theme_settings', // unique ID
                     'priority'          => 30,
                     'theme_supports'    => '',
@@ -47,7 +47,7 @@ $options[] = array( 'title'             => esc_html__( 'Theme Settings', 'basil'
     Sections
 --------------------------------------------------------------------------------------------------- */
 
-$options[] = array( 'title'             => esc_html__( 'General', 'basil' ), // Section name
+$options[] = array( 'title'             => __( 'General', 'basil' ), // Section name
                     'description'       => '',
                     'panel'             => BX_THEME_SLUG . '_theme_settings', // panel
                     'id'                => BX_THEME_SLUG . '_style', // unique ID
@@ -56,7 +56,7 @@ $options[] = array( 'title'             => esc_html__( 'General', 'basil' ), // 
                     'theme_supports'    => '',
                     'type'              => 'section' ); // type = section
 
-$options[] = array( 'title'             => esc_html__( 'Recipe Slider', 'basil' ), // Section name
+$options[] = array( 'title'             => __( 'Recipe Slider', 'basil' ), // Section name
                     'description'       => '',
                     'panel'             => BX_THEME_SLUG . '_theme_settings', // panel
                     'id'                => BX_THEME_SLUG . '_slider', // unique ID
@@ -65,7 +65,7 @@ $options[] = array( 'title'             => esc_html__( 'Recipe Slider', 'basil' 
                     'theme_supports'    => '',
                     'type'              => 'section' ); // type = section
 
-$options[] = array( 'title'             => esc_html__( 'Header', 'basil' ), // Section name
+$options[] = array( 'title'             => __( 'Header', 'basil' ), // Section name
                     'description'       => '',
                     'panel'             => BX_THEME_SLUG . '_theme_settings', // panel
                     'id'                => BX_THEME_SLUG . '_header', // unique ID
@@ -74,7 +74,7 @@ $options[] = array( 'title'             => esc_html__( 'Header', 'basil' ), // S
                     'theme_supports'    => '',
                     'type'              => 'section' ); // type = section
 
-$options[] = array( 'title'             => esc_html__( 'Footer', 'basil' ), // Section name
+$options[] = array( 'title'             => __( 'Footer', 'basil' ), // Section name
                     'description'       => '',
                     'panel'             => BX_THEME_SLUG . '_theme_settings', // panel
                     'id'                => BX_THEME_SLUG . '_footer', // unique ID
@@ -83,7 +83,7 @@ $options[] = array( 'title'             => esc_html__( 'Footer', 'basil' ), // S
                     'theme_supports'    => '',
                     'type'              => 'section' ); // type = section
 
-$options[] = array( 'title'             => esc_html__( 'Typography', 'basil' ), // Section name
+$options[] = array( 'title'             => __( 'Typography', 'basil' ), // Section name
                     'description'       => '',
                     'panel'             => BX_THEME_SLUG . '_theme_settings', // panel
                     'id'                => BX_THEME_SLUG . '_typography', // unique ID
@@ -92,7 +92,7 @@ $options[] = array( 'title'             => esc_html__( 'Typography', 'basil' ), 
                     'theme_supports'    => '',
 				'type'              => 'section' ); // type = section
 
-$options[] = array( 'title'             => esc_html__( 'Pages & Posts', 'basil' ), // Section name
+$options[] = array( 'title'             => __( 'Pages & Posts', 'basil' ), // Section name
                     'description'       => '',
                     'panel'             => BX_THEME_SLUG . '_theme_settings', // panel
                     'id'                => BX_THEME_SLUG . '_pages_posts', // unique ID
@@ -101,7 +101,7 @@ $options[] = array( 'title'             => esc_html__( 'Pages & Posts', 'basil' 
                     'theme_supports'    => '',
 				'type'              => 'section' ); // type = section
 
-$options[] = array( 'title'             => esc_html__( 'WooCommerce', 'basil' ), // Section name
+$options[] = array( 'title'             => __( 'WooCommerce', 'basil' ), // Section name
                     'description'       => '',
                     'panel'             => BX_THEME_SLUG . '_theme_settings', // panel
                     'id'                => BX_THEME_SLUG . '_woocommerce', // unique ID
@@ -110,7 +110,7 @@ $options[] = array( 'title'             => esc_html__( 'WooCommerce', 'basil' ),
                     'theme_supports'    => '',
 				'type'              => 'section' ); // type = section
 
-$options[] = array( 'title'             => esc_html__( 'Socials', 'basil' ), // Section name
+$options[] = array( 'title'             => __( 'Socials', 'basil' ), // Section name
                     'description'       => '',
                     'panel'             => BX_THEME_SLUG . '_theme_settings', // panel
                     'id'                => BX_THEME_SLUG . '_socials', // unique ID
@@ -119,7 +119,7 @@ $options[] = array( 'title'             => esc_html__( 'Socials', 'basil' ), // 
                     'theme_supports'    => '',
                     'type'              => 'section' ); // type = section
 
-$options[] = array( 'title'             => esc_html__( 'Advanced', 'basil' ), // Section name
+$options[] = array( 'title'             => __( 'Advanced', 'basil' ), // Section name
                     'description'       => '',
                     'panel'             => BX_THEME_SLUG . '_theme_settings', // panel
                     'id'                => BX_THEME_SLUG . '_advanced_options', // unique ID
@@ -132,39 +132,39 @@ $options[] = array( 'title'             => esc_html__( 'Advanced', 'basil' ), //
     General
 --------------------------------------------------------------------------------------------------- */
 
-$options[] = array( 'title'             => esc_html__( 'Layout Settings', 'basil' ),
+$options[] = array( 'title'             => __( 'Layout Settings', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_style',
                     'id'                => BX_THEME_SLUG . '_layout_heading',
                     'option'            => 'section_heading',
                     'type'				=> 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'Layout Style', 'basil' ),
-                    'description'       => esc_html__( 'Choose between a Full or Boxed layout','basil' ),
+$options[] = array( 'title'             => __( 'Layout Style', 'basil' ),
+                    'description'       => __( 'Choose between a Full or Boxed layout','basil' ),
                     'section'           => BX_THEME_SLUG . '_style',
                     'id'                => BX_THEME_SLUG . '_layout_style',
                     'default'           => 'full',
                     'option'            => 'select',
                     'choices'           => array(
-                        'full' => esc_html__('Full','basil'),
-                        'boxed' => esc_html__('Boxed','basil')
+                        'full' => __('Full','basil'),
+                        'boxed' => __('Boxed','basil')
                     ),
 					'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'Button Style', 'basil' ),
+$options[] = array( 'title'             => __( 'Button Style', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_style',
                     'id'                => BX_THEME_SLUG . '_button_style',
                     'default'           => 'default',
                     'option'            => 'select',
                     'choices'           => array(
-                         'sharp' => esc_html__('Sharp Corners','basil'),
-                         'default' => esc_html__('Rounded Corners','basil'),
-                         'rounded' => esc_html__('Rounded','basil')
+                         'sharp' => __('Sharp Corners','basil'),
+                         'default' => __('Rounded Corners','basil'),
+                         'rounded' => __('Rounded','basil')
                     ),
                     'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'Mobile Optimized (responsive)', 'basil' ),
+$options[] = array( 'title'             => __( 'Mobile Optimized (responsive)', 'basil' ),
                     'description'       => 'Layout will adjust to fit mobile devices.',
                     'section'           => BX_THEME_SLUG . '_style',
                     'id'                => BX_THEME_SLUG . '_mobile_optimized',
@@ -176,7 +176,7 @@ $options[] = array( 'title'             => esc_html__( 'Mobile Optimized (respon
     Recipe Slider
 --------------------------------------------------------------------------------------------------- */
 
-$options[] = array( 'title'             => esc_html__( 'Recipe Slider', 'basil' ),
+$options[] = array( 'title'             => __( 'Recipe Slider', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_slider',
                     'id'                => BX_THEME_SLUG . '_slider_heading',
@@ -184,76 +184,76 @@ $options[] = array( 'title'             => esc_html__( 'Recipe Slider', 'basil' 
                     'type'                   => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Background Image(s)', 'basil' ),
+          'title'             => __( 'Background Image(s)', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_bg_images',
           'default'           => 'recipes',
           'option'            => 'select',
           'choices'           => array(
-               'recipes'           => esc_html__('Recipe Images','basil'),
-               'featured'          => esc_html__('Featured Image','basil')
+               'recipes'           => __('Recipe Images','basil'),
+               'featured'          => __('Featured Image','basil')
           ),
           'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Background Transparency', 'basil' ),
+          'title'             => __( 'Background Transparency', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_bg_transparency',
           'default'           => '0.2',
           'option'            => 'select',
           'choices'           => array(
-               '1.0'               => esc_html__('None','basil'),
-               '0.9'               => esc_html__('90%','basil'),
-               '0.8'               => esc_html__('80%','basil'),
-               '0.7'               => esc_html__('70%','basil'),
-               '0.6'               => esc_html__('60%','basil'),
-               '0.5'               => esc_html__('50%','basil'),
-               '0.4'               => esc_html__('40%','basil'),
-               '0.3'               => esc_html__('30%','basil'),
-               '0.2'               => esc_html__('20%','basil'),
-               '0.1'               => esc_html__('10%','basil'),
-               '0'                 => esc_html__('Hidden','basil'),
+               '1.0'               => __('None','basil'),
+               '0.9'               => __('90%','basil'),
+               '0.8'               => __('80%','basil'),
+               '0.7'               => __('70%','basil'),
+               '0.6'               => __('60%','basil'),
+               '0.5'               => __('50%','basil'),
+               '0.4'               => __('40%','basil'),
+               '0.3'               => __('30%','basil'),
+               '0.2'               => __('20%','basil'),
+               '0.1'               => __('10%','basil'),
+               '0'                 => __('Hidden','basil'),
           ),
           'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Background Blur', 'basil' ),
+          'title'             => __( 'Background Blur', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_bg_blur',
           'default'           => '0',
           'option'            => 'select',
           'choices'           => array(
-               '100'               => esc_html__('100px','basil'),
-               '75'               => esc_html__('75px','basil'),
-               '50'               => esc_html__('50px','basil'),
-               '40'               => esc_html__('40px','basil'),
-               '30'               => esc_html__('30px','basil'),
-               '20'               => esc_html__('20px','basil'),
-               '15'               => esc_html__('15px','basil'),
-               '10'               => esc_html__('10px','basil'),
-               '5'               => esc_html__('5px','basil'),
-               '3'               => esc_html__('3px','basil'),
-               '0'                 => esc_html__('None','basil'),
+               '100'               => __('100px','basil'),
+               '75'               => __('75px','basil'),
+               '50'               => __('50px','basil'),
+               '40'               => __('40px','basil'),
+               '30'               => __('30px','basil'),
+               '20'               => __('20px','basil'),
+               '15'               => __('15px','basil'),
+               '10'               => __('10px','basil'),
+               '5'               => __('5px','basil'),
+               '3'               => __('3px','basil'),
+               '0'                 => __('None','basil'),
           ),
           'type'              => 'control' );
 
-$options[] = array( 'title'   => esc_html__( 'Slider Background Grayscale', 'basil' ),
+$options[] = array( 'title'   => __( 'Slider Background Grayscale', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_bg_grayscale',
           'default'           => 'enabled',
           'option'            => 'radio',
           'choices'           => array(
-              'enabled'          => esc_html__('Enabled','basil'),
-              'disabled'           => esc_html__('Disabled','basil')
+              'enabled'          => __('Enabled','basil'),
+              'disabled'           => __('Disabled','basil')
           ),
           'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Slider Padding', 'basil' ),
+          'title'             => __( 'Slider Padding', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_padding',
@@ -276,7 +276,7 @@ $options[] = array(
           'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Background Color', 'basil' ),
+          'title'             => __( 'Background Color', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_bg_color',
@@ -285,7 +285,7 @@ $options[] = array(
           'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Heading Color', 'basil' ),
+          'title'             => __( 'Heading Color', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_heading_color',
@@ -294,7 +294,7 @@ $options[] = array(
           'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Heading Size', 'basil' ),
+          'title'             => __( 'Heading Size', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_heading_size',
@@ -316,7 +316,7 @@ $options[] = array(
           'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Subheading Color', 'basil' ),
+          'title'             => __( 'Subheading Color', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_subheading_color',
@@ -325,7 +325,7 @@ $options[] = array(
           'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Subheading Size', 'basil' ),
+          'title'             => __( 'Subheading Size', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_subheading_size',
@@ -347,7 +347,7 @@ $options[] = array(
           'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Link Color', 'basil' ),
+          'title'             => __( 'Link Color', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_slider',
           'id'                => BX_THEME_SLUG . '_slider_link_color',
@@ -359,14 +359,14 @@ $options[] = array(
     Header
 --------------------------------------------------------------------------------------------------- */
 
-$options[] = array( 'title'             => esc_html__( 'Main Header', 'basil' ),
+$options[] = array( 'title'             => __( 'Main Header', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_header',
                     'id'                => BX_THEME_SLUG . '_header_heading',
                     'option'            => 'section_heading',
                     'type'				=> 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'Header Height', 'basil' ),
+$options[] = array( 'title'             => __( 'Header Height', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_header',
                     'id'                => BX_THEME_SLUG . '_header_height',
@@ -376,16 +376,16 @@ $options[] = array( 'title'             => esc_html__( 'Header Height', 'basil' 
                     'type'              => 'control' );
 
 $search_options = array(
-     'disabled'     => esc_html__( 'Disabled','basil' ),
-     'enabled'    => esc_html__( 'Enabled','basil' )
+     'disabled'     => __( 'Disabled','basil' ),
+     'enabled'    => __( 'Enabled','basil' )
 );
 
 if ( class_exists( 'Cooked_Recipes' ) ):
-     $search_options['enabled'] = esc_html__( 'WordPress Search','basil' );
-     $search_options['cooked'] = esc_html__( 'Cooked Recipe Search','basil' );
+     $search_options['enabled'] = __( 'WordPress Search','basil' );
+     $search_options['cooked'] = __( 'Cooked Recipe Search','basil' );
 endif;
 
-$options[] = array( 'title'             => esc_html__( 'Search', 'basil' ),
+$options[] = array( 'title'             => __( 'Search', 'basil' ),
                     'section'           => BX_THEME_SLUG . '_header',
                     'id'                => BX_THEME_SLUG . '_header_search',
                     'default'           => 'disabled',
@@ -394,15 +394,15 @@ $options[] = array( 'title'             => esc_html__( 'Search', 'basil' ),
 				'type'              => 'control' );
 
 if ( class_exists( 'Cooked_Profiles' ) ):
-     $options[] = array( 'title'             => esc_html__( 'Cooked Profile Buttons', 'basil' ),
-                         'description'       => esc_html__( 'Enabling this will show a "Login" button to non-logged-in users and "Profile" and "Sign Out" buttons to your logged-in users.', 'basil' ),
+     $options[] = array( 'title'             => __( 'Cooked Profile Buttons', 'basil' ),
+                         'description'       => __( 'Enabling this will show a "Login" button to non-logged-in users and "Profile" and "Sign Out" buttons to your logged-in users.', 'basil' ),
                          'section'           => BX_THEME_SLUG . '_header',
                          'id'                => BX_THEME_SLUG . '_header_profile',
                          'default'           => 'disabled',
                          'option'            => 'radio',
                          'choices'           => array(
-                             'disabled'          => esc_html__('Disabled','basil'),
-                             'enabled'           => esc_html__('Enabled','basil')
+                             'disabled'          => __('Disabled','basil'),
+                             'enabled'           => __('Enabled','basil')
                          ),
                          'type'              => 'control' );
 endif;
@@ -415,7 +415,7 @@ endif;
 
 if ( class_exists( 'WooCommerce' ) ):
 
-     $options[] = array( 'title'             => esc_html__( 'Cart/Checkout Background', 'basil' ),
+     $options[] = array( 'title'             => __( 'Cart/Checkout Background', 'basil' ),
                          'description'       => '',
                          'section'           => BX_THEME_SLUG . '_woocommerce',
                          'id'                => BX_THEME_SLUG . '_woocommerce_table_bg',
@@ -423,7 +423,7 @@ if ( class_exists( 'WooCommerce' ) ):
                          'option'            => 'color',
                          'type'              => 'control' );
 
-     $options[] = array( 'title'             => esc_html__( 'Cart/Checkout Header Background', 'basil' ),
+     $options[] = array( 'title'             => __( 'Cart/Checkout Header Background', 'basil' ),
                          'description'       => '',
                          'section'           => BX_THEME_SLUG . '_woocommerce',
                          'id'                => BX_THEME_SLUG . '_woocommerce_table_header_bg',
@@ -431,7 +431,7 @@ if ( class_exists( 'WooCommerce' ) ):
                          'option'            => 'color',
                          'type'              => 'control' );
 
-     $options[] = array( 'title'             => esc_html__( 'Cart/Checkout Header Text Color', 'basil' ),
+     $options[] = array( 'title'             => __( 'Cart/Checkout Header Text Color', 'basil' ),
                          'description'       => '',
                          'section'           => BX_THEME_SLUG . '_woocommerce',
                          'id'                => BX_THEME_SLUG . '_woocommerce_table_header_text',
@@ -439,7 +439,7 @@ if ( class_exists( 'WooCommerce' ) ):
                          'option'            => 'color',
                          'type'              => 'control' );
 
-     $options[] = array( 'title'             => esc_html__( 'Cart/Checkout Footer Background', 'basil' ),
+     $options[] = array( 'title'             => __( 'Cart/Checkout Footer Background', 'basil' ),
                          'description'       => '',
                          'section'           => BX_THEME_SLUG . '_woocommerce',
                          'id'                => BX_THEME_SLUG . '_woocommerce_table_footer_bg',
@@ -447,7 +447,7 @@ if ( class_exists( 'WooCommerce' ) ):
                          'option'            => 'color',
                          'type'              => 'control' );
 
-     $options[] = array( 'title'             => esc_html__( 'Cart/Checkout Footer Text Color', 'basil' ),
+     $options[] = array( 'title'             => __( 'Cart/Checkout Footer Text Color', 'basil' ),
                          'description'       => '',
                          'section'           => BX_THEME_SLUG . '_woocommerce',
                          'id'                => BX_THEME_SLUG . '_woocommerce_table_footer_text',
@@ -455,27 +455,27 @@ if ( class_exists( 'WooCommerce' ) ):
                          'option'            => 'color',
                          'type'              => 'control' );
 
-     $options[] = array( 'title'             => esc_html__( 'Product Upsells', 'basil' ),
+     $options[] = array( 'title'             => __( 'Product Upsells', 'basil' ),
                          'description'       => '',
                          'section'           => BX_THEME_SLUG . '_woocommerce',
                          'id'                => BX_THEME_SLUG . '_woocommerce',
                          'default'           => 'show',
                          'option'            => 'radio',
                          'choices'           => array(
-                             'show'          => esc_html__('Show','basil'),
-                             'hide'           => esc_html__('Hide','basil')
+                             'show'          => __('Show','basil'),
+                             'hide'           => __('Hide','basil')
                          ),
                          'type'              => 'control' );
 
-     $options[] = array( 'title'             => esc_html__( 'Related Products', 'basil' ),
+     $options[] = array( 'title'             => __( 'Related Products', 'basil' ),
                          'description'       => '',
                          'section'           => BX_THEME_SLUG . '_woocommerce',
                          'id'                => BX_THEME_SLUG . '_woocommerce_related_products',
                          'default'           => 'show',
                          'option'            => 'radio',
                          'choices'           => array(
-                             'show'          => esc_html__('Show','basil'),
-                             'hide'           => esc_html__('Hide','basil')
+                             'show'          => __('Show','basil'),
+                             'hide'           => __('Hide','basil')
                          ),
                          'type'              => 'control' );
 
@@ -553,65 +553,65 @@ $options[] = array( 'title'             => 'Pinterest',
 --------------------------------------------------------------------------------------------------- */
 
 $options[] = array(
-		'title'             => esc_html__( 'Breadcrumbs', 'basil' ),
+		'title'             => __( 'Breadcrumbs', 'basil' ),
 		'description'       => '',
 		'section'           => BX_THEME_SLUG . '_pages_posts',
         'id'                => BX_THEME_SLUG . '_breadcrumbs',
 		'default'           => 'enabled',
 		'option'            => 'radio',
         'choices'           => array(
-            'enabled' 			=> esc_html__('Enabled','basil'),
-			'disabled' 			=> esc_html__('Disabled','basil'),
+            'enabled' 			=> __('Enabled','basil'),
+			'disabled' 			=> __('Disabled','basil'),
         ),
 		'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Page Title', 'basil' ),
+          'title'             => __( 'Page Title', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_pages_posts',
         'id'                => BX_THEME_SLUG . '_page_title',
           'default'           => 'enabled',
           'option'            => 'radio',
         'choices'             => array(
-            'enabled'              => esc_html__('Enabled','basil'),
-          'disabled'          => esc_html__('Disabled','basil'),
+            'enabled'              => __('Enabled','basil'),
+          'disabled'          => __('Disabled','basil'),
         ),
           'type'              => 'control' );
 
 $options[] = array(
-          'title'             => esc_html__( 'Content Width', 'basil' ),
+          'title'             => __( 'Content Width', 'basil' ),
           'description'       => '',
           'section'           => BX_THEME_SLUG . '_pages_posts',
           'id'                => BX_THEME_SLUG . '_content',
           'default'           => 'default',
           'option'            => 'radio',
           'choices'           => apply_filters( 'boxy_content_width_options', array(
-               'disabled'          => esc_html__('Full-Width','basil'),
-               'default'           => esc_html__('1100px','basil'),
-               '1000px'            => esc_html__('1000px','basil'),
-               '900px'             => esc_html__('900px','basil'),
-               '800px'             => esc_html__('800px','basil'),
-               '700px'             => esc_html__('700px','basil'),
-               '600px'             => esc_html__('600px','basil')
+               'disabled'          => __('Full-Width','basil'),
+               'default'           => __('1100px','basil'),
+               '1000px'            => __('1000px','basil'),
+               '900px'             => __('900px','basil'),
+               '800px'             => __('800px','basil'),
+               '700px'             => __('700px','basil'),
+               '600px'             => __('600px','basil')
           )),
           'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'Featured Image Layout', 'basil' ),
-                    'description'       => esc_html__( 'Choose how and where you featured images display.','basil' ),
+$options[] = array( 'title'             => __( 'Featured Image Layout', 'basil' ),
+                    'description'       => __( 'Choose how and where you featured images display.','basil' ),
                     'section'           => BX_THEME_SLUG . '_pages_posts',
                     'id'                => BX_THEME_SLUG . '_page_thumbnail_layout',
                     'default'           => 'page_banner',
                     'option'            => 'select',
                     'choices'           => array(
-	                   'disabled' 		=> esc_html__('Disabled','basil'),
-                        'page_banner' 		=> esc_html__('Page Banner w/Title','basil'),
-                        'page_banner_blank'  => esc_html__('Page Banner w/o Title','basil'),
-                        'inline' 			=> esc_html__('Inline','basil'),
+	                   'disabled' 		=> __('Disabled','basil'),
+                        'page_banner' 		=> __('Page Banner w/Title','basil'),
+                        'page_banner_blank'  => __('Page Banner w/o Title','basil'),
+                        'inline' 			=> __('Inline','basil'),
                     ),
 				'type'              => 'control' );
 
 $options[] = array(
-		'title'             => esc_html__( 'Image Position', 'basil' ),
+		'title'             => __( 'Image Position', 'basil' ),
 		'description'       => '',
 		'section'           => BX_THEME_SLUG . '_pages_posts',
         'id'                => BX_THEME_SLUG . '_page_thumbnail_position',
@@ -619,13 +619,13 @@ $options[] = array(
 		'conditionals'		=> array( BX_THEME_SLUG . '_page_thumbnail_layout' => 'inline' ),
 		'option'            => 'radio',
         'choices'           => array(
-            'above' 			=> esc_html__('Above Title','basil'),
-			'below' 			=> esc_html__('Below Title','basil'),
+            'above' 			=> __('Above Title','basil'),
+			'below' 			=> __('Below Title','basil'),
         ),
 		'type'              => 'control' );
 
 $options[] = array(
-		'title'             => esc_html__( 'Image Styling', 'basil' ),
+		'title'             => __( 'Image Styling', 'basil' ),
 		'description'       => '',
 		'section'           => BX_THEME_SLUG . '_pages_posts',
         'id'                => BX_THEME_SLUG . '_page_thumbnail_style',
@@ -633,21 +633,21 @@ $options[] = array(
 		'conditionals'		=> array( BX_THEME_SLUG . '_page_thumbnail_layout' => 'inline' ),
 		'option'            => 'radio',
         'choices'           => array(
-            'disabled' 			=> esc_html__('Disabled','basil'),
-			'bordered_1' 		=> esc_html__('Bordered 1','basil'),
-			'bordered_2' 		=> esc_html__('Bordered 2','basil'),
-			'bordered_3' 		=> esc_html__('Bordered 3','basil'),
-			'bordered_4' 		=> esc_html__('Bordered 4','basil'),
-			'bordered_5' 		=> esc_html__('Bordered 5','basil'),
-			'shadow_1' 			=> esc_html__('Small Shadow','basil'),
-			'shadow_2' 			=> esc_html__('Medium Shadow','basil'),
-			'shadow_3' 			=> esc_html__('Large Shadow','basil'),
-			'floating' 			=> esc_html__('Floating','basil'),
+            'disabled' 			=> __('Disabled','basil'),
+			'bordered_1' 		=> __('Bordered 1','basil'),
+			'bordered_2' 		=> __('Bordered 2','basil'),
+			'bordered_3' 		=> __('Bordered 3','basil'),
+			'bordered_4' 		=> __('Bordered 4','basil'),
+			'bordered_5' 		=> __('Bordered 5','basil'),
+			'shadow_1' 			=> __('Small Shadow','basil'),
+			'shadow_2' 			=> __('Medium Shadow','basil'),
+			'shadow_3' 			=> __('Large Shadow','basil'),
+			'floating' 			=> __('Floating','basil'),
         ),
 		'type'              => 'control' );
 
 $options[] = array(
-		'title'             => esc_html__( 'Image Border Color', 'basil' ),
+		'title'             => __( 'Image Border Color', 'basil' ),
 		'description'       => '',
 		'section'           => BX_THEME_SLUG . '_pages_posts',
         'id'                => BX_THEME_SLUG . '_page_thumbnail_border',
@@ -657,7 +657,7 @@ $options[] = array(
 		'type'              => 'control' );
 
 $options[] = array(
-		'title'             => esc_html__( 'Page Title Style', 'basil' ),
+		'title'             => __( 'Page Title Style', 'basil' ),
 		'description'       => '',
 		'section'           => BX_THEME_SLUG . '_pages_posts',
         'id'                => BX_THEME_SLUG . '_page_banner_title_style',
@@ -665,14 +665,14 @@ $options[] = array(
 		'conditionals'		=> array( BX_THEME_SLUG . '_page_thumbnail_layout' => 'page_banner' ),
 		'option'            => 'radio',
         'choices'           => array(
-            'centered' 		=> esc_html__('Centered','basil'),
-			'left' 				=> esc_html__('Left','basil'),
-			'right' 			=> esc_html__('Right','basil'),
+            'centered' 		=> __('Centered','basil'),
+			'left' 				=> __('Left','basil'),
+			'right' 			=> __('Right','basil'),
         ),
 		'type'              => 'control' );
 
 $options[] = array(
-		'title'             => esc_html__( 'Overlay Color', 'basil' ),
+		'title'             => __( 'Overlay Color', 'basil' ),
 		'description'       => '',
 		'section'           => BX_THEME_SLUG . '_pages_posts',
         'id'                => BX_THEME_SLUG . '_page_thumbnail_overlay',
@@ -682,7 +682,7 @@ $options[] = array(
 		'type'              => 'control' );
 
 $options[] = array(
-		'title'             => esc_html__( 'Overlay Transparency', 'basil' ),
+		'title'             => __( 'Overlay Transparency', 'basil' ),
 		'description'       => '',
 		'section'           => BX_THEME_SLUG . '_pages_posts',
         'id'                => BX_THEME_SLUG . '_page_thumbnail_transparency',
@@ -690,22 +690,22 @@ $options[] = array(
 		'conditionals'		=> array( BX_THEME_SLUG . '_page_thumbnail_layout' => 'page_banner' ),
 		'option'            => 'radio',
         'choices'           => array(
-            '1.0' 				=> esc_html__('Solid Color','basil'),
-			'0.9' 				=> esc_html__('90%','basil'),
-			'0.8' 				=> esc_html__('80%','basil'),
-			'0.7' 				=> esc_html__('70%','basil'),
-			'0.6' 				=> esc_html__('60%','basil'),
-			'0.5' 				=> esc_html__('50%','basil'),
-			'0.4' 				=> esc_html__('40%','basil'),
-			'0.3' 				=> esc_html__('30%','basil'),
-			'0.2' 				=> esc_html__('20%','basil'),
-			'0.1' 				=> esc_html__('10%','basil'),
-			'0' 				=> esc_html__('Transparent','basil'),
+            '1.0' 				=> __('Solid Color','basil'),
+			'0.9' 				=> __('90%','basil'),
+			'0.8' 				=> __('80%','basil'),
+			'0.7' 				=> __('70%','basil'),
+			'0.6' 				=> __('60%','basil'),
+			'0.5' 				=> __('50%','basil'),
+			'0.4' 				=> __('40%','basil'),
+			'0.3' 				=> __('30%','basil'),
+			'0.2' 				=> __('20%','basil'),
+			'0.1' 				=> __('10%','basil'),
+			'0' 				=> __('Transparent','basil'),
         ),
 		'type'              => 'control' );
 
 $options[] = array(
-		'title'             => esc_html__( 'Page Title Color', 'basil' ),
+		'title'             => __( 'Page Title Color', 'basil' ),
 		'description'       => '',
 		'section'           => BX_THEME_SLUG . '_pages_posts',
         'id'                => BX_THEME_SLUG . '_page_banner_title',
@@ -719,7 +719,7 @@ $options[] = array(
 --------------------------------------------------------------------------------------------------- */
 
 $options[] = array(
-     'title'             => esc_html__( 'Header Colors', 'basil' ),
+     'title'             => __( 'Header Colors', 'basil' ),
      'description'       => '',
      'section'           => 'colors',
      'id'                => BX_THEME_SLUG . '_header_colors_heading',
@@ -728,39 +728,39 @@ $options[] = array(
 
 $header_colors = array(
      BX_THEME_SLUG . '_header_bg_color' => array(
-          'title' => esc_html__( 'Header Background Color', 'basil' ),
+          'title' => __( 'Header Background Color', 'basil' ),
           'default' => '#ffffff',
      ),
      BX_THEME_SLUG . '_header_logo_color' => array(
-          'title' => esc_html__( 'Header Logo Text Color', 'basil' ),
+          'title' => __( 'Header Logo Text Color', 'basil' ),
           'default' => '#333333',
      ),
      BX_THEME_SLUG . '_nav_bar_bg_color' => array(
-          'title' => esc_html__( 'Navigation Background', 'basil' ),
+          'title' => __( 'Navigation Background', 'basil' ),
           'default' => '#0dbe5f',
      ),
      BX_THEME_SLUG . '_nav_bar_text_color' => array(
-          'title' => esc_html__( 'Navigation Text', 'basil' ),
+          'title' => __( 'Navigation Text', 'basil' ),
           'default' => '#ffffff',
      ),
      BX_THEME_SLUG . '_nav_bar_text_color_hover' => array(
-          'title' => esc_html__( 'Navigation Text on Hover', 'basil' ),
+          'title' => __( 'Navigation Text on Hover', 'basil' ),
           'default' => '#ffffff',
      ),
      BX_THEME_SLUG . '_nav_bar_text_bg_color_hover' => array(
-          'title' => esc_html__( 'Navigation Text Background on Hover', 'basil' ),
+          'title' => __( 'Navigation Text Background on Hover', 'basil' ),
           'default' => '#22cc6e',
      ),
      BX_THEME_SLUG . '_nav_bar_dropdown_bg_color' => array(
-          'title' => esc_html__( 'Navigation Dropdown Background', 'basil' ),
+          'title' => __( 'Navigation Dropdown Background', 'basil' ),
           'default' => '#22cc6e',
      ),
      BX_THEME_SLUG . '_nav_bar_dropdown_text_color' => array(
-          'title' => esc_html__( 'Navigation Dropdown Text', 'basil' ),
+          'title' => __( 'Navigation Dropdown Text', 'basil' ),
           'default' => '#ffffff',
      ),
      BX_THEME_SLUG . '_nav_bar_dropdown_text_color_hover' => array(
-          'title' => esc_html__( 'Navigation Dropdown Text on Hover', 'basil' ),
+          'title' => __( 'Navigation Dropdown Text on Hover', 'basil' ),
           'default' => '#ffffff',
      ),
 );
@@ -783,7 +783,7 @@ endforeach;
 --------------------------------------------------------------------------------------------------- */
 
 $options[] = array(
-     'title'             => esc_html__( 'Footer Colors', 'basil' ),
+     'title'             => __( 'Footer Colors', 'basil' ),
      'description'       => '',
      'section'           => 'colors',
      'id'                => BX_THEME_SLUG . '_footer_colors_heading',
@@ -792,31 +792,31 @@ $options[] = array(
 
 $footer_colors = array(
      BX_THEME_SLUG . '_footer_bg_color' => array(
-          'title' => esc_html__( 'Footer Background Color', 'basil' ),
+          'title' => __( 'Footer Background Color', 'basil' ),
           'default' => '#111111',
      ),
      BX_THEME_SLUG . '_footer_widget_text_color' => array(
-          'title' => esc_html__( 'Footer Widgets - Text Color', 'basil' ),
+          'title' => __( 'Footer Widgets - Text Color', 'basil' ),
           'default' => '#ffffff',
      ),
      BX_THEME_SLUG . '_footer_widget_link_color' => array(
-          'title' => esc_html__( 'Footer Widgets - Link Color', 'basil' ),
+          'title' => __( 'Footer Widgets - Link Color', 'basil' ),
           'default' => '#39db7f',
      ),
      BX_THEME_SLUG . '_footer_widget_link_color_hover' => array(
-          'title' => esc_html__( 'Footer Widgets - Link Color on Hover', 'basil' ),
+          'title' => __( 'Footer Widgets - Link Color on Hover', 'basil' ),
           'default' => '#ffffff',
      ),
      BX_THEME_SLUG . '_footer_text_color' => array(
-          'title' => esc_html__( 'Footer Bottom - Text Color', 'basil' ),
+          'title' => __( 'Footer Bottom - Text Color', 'basil' ),
           'default' => '#888888',
      ),
      BX_THEME_SLUG . '_footer_link_color' => array(
-          'title' => esc_html__( 'Footer Bottom - Link Color', 'basil' ),
+          'title' => __( 'Footer Bottom - Link Color', 'basil' ),
           'default' => '#888888',
      ),
      BX_THEME_SLUG . '_footer_link_color_hover' => array(
-          'title' => esc_html__( 'Footer Bottom - Link Color on Hover', 'basil' ),
+          'title' => __( 'Footer Bottom - Link Color on Hover', 'basil' ),
           'default' => '#ed5e4e',
      )
 );
@@ -839,7 +839,7 @@ endforeach;
 --------------------------------------------------------------------------------------------------- */
 
 $options[] = array(
-	'title'             => esc_html__( 'Button Colors', 'basil' ),
+	'title'             => __( 'Button Colors', 'basil' ),
 	'description'       => '',
 	'section'           => 'colors',
 	'id'                => BX_THEME_SLUG . '_button_colors_heading',
@@ -848,35 +848,35 @@ $options[] = array(
 
 $button_colors = array(
 	BX_THEME_SLUG . '_main_button_bg_color' => array(
-		'title' => esc_html__( 'Main Button Background Color', 'basil' ),
+		'title' => __( 'Main Button Background Color', 'basil' ),
 		'default' => '#0dbe5f',
 	),
 	BX_THEME_SLUG . '_main_button_text_color' => array(
-		'title' => esc_html__( 'Main Button Text Color', 'basil' ),
+		'title' => __( 'Main Button Text Color', 'basil' ),
 		'default' => '#ffffff',
 	),
 	BX_THEME_SLUG . '_main_button_bg_hover_color' => array(
-		'title' => esc_html__( 'Main Button Background Color on Hover', 'basil' ),
+		'title' => __( 'Main Button Background Color on Hover', 'basil' ),
 		'default' => '#008466',
 	),
 	BX_THEME_SLUG . '_main_button_text_hover_color' => array(
-		'title' => esc_html__( 'Main Button Text Color on Hover', 'basil' ),
+		'title' => __( 'Main Button Text Color on Hover', 'basil' ),
 		'default' => '#ffffff',
 	),
 	BX_THEME_SLUG . '_secondary_button_bg_color' => array(
-		'title' => esc_html__( 'Secondary Button Background Color', 'basil' ),
+		'title' => __( 'Secondary Button Background Color', 'basil' ),
 		'default' => '#333333',
 	),
 	BX_THEME_SLUG . '_secondary_button_text_color' => array(
-		'title' => esc_html__( 'Secondary Button Text Color', 'basil' ),
+		'title' => __( 'Secondary Button Text Color', 'basil' ),
 		'default' => '#ffffff',
 	),
 	BX_THEME_SLUG . '_secondary_button_bg_hover_color' => array(
-		'title' => esc_html__( 'Secondary Button Background Color on Hover', 'basil' ),
+		'title' => __( 'Secondary Button Background Color on Hover', 'basil' ),
 		'default' => '#000000',
 	),
 	BX_THEME_SLUG . '_secondary_button_text_hover_color' => array(
-		'title' => esc_html__( 'Secondary Button Text Color on Hover', 'basil' ),
+		'title' => __( 'Secondary Button Text Color on Hover', 'basil' ),
 		'default' => '#ffffff',
 	)
 );
@@ -899,7 +899,7 @@ endforeach;
 --------------------------------------------------------------------------------------------------- */
 
 $options[] = array(
-	'title'             => esc_html__( 'Main Content Colors', 'basil' ),
+	'title'             => __( 'Main Content Colors', 'basil' ),
 	'description'       => '',
 	'section'           => 'colors',
 	'id'                => BX_THEME_SLUG . '_main_colors_heading',
@@ -908,43 +908,43 @@ $options[] = array(
 
 $main_colors = array(
 	BX_THEME_SLUG . '_main_content_bg' => array(
-		'title' => esc_html__( 'Content Background Color', 'basil' ),
+		'title' => __( 'Content Background Color', 'basil' ),
 		'default' => '#ffffff',
 	),
 	BX_THEME_SLUG . '_main_content_text' => array(
-		'title' => esc_html__( 'Content Text Color', 'basil' ),
+		'title' => __( 'Content Text Color', 'basil' ),
 		'default' => '#333333',
 	),
 	BX_THEME_SLUG . '_main_content_link' => array(
-		'title' => esc_html__( 'Content Link Color', 'basil' ),
+		'title' => __( 'Content Link Color', 'basil' ),
 		'default' => '#0083be',
 	),
 	BX_THEME_SLUG . '_main_content_link_hover' => array(
-		'title' => esc_html__( 'Content Link Color on Hover', 'basil' ),
+		'title' => __( 'Content Link Color on Hover', 'basil' ),
 		'default' => '#333333',
 	),
 	BX_THEME_SLUG . '_main_content_h1' => array(
-		'title' => esc_html__( 'H1 Header Color', 'basil' ),
+		'title' => __( 'H1 Header Color', 'basil' ),
 		'default' => '#333333',
 	),
 	BX_THEME_SLUG . '_main_content_h2' => array(
-		'title' => esc_html__( 'H2 Header Color', 'basil' ),
+		'title' => __( 'H2 Header Color', 'basil' ),
 		'default' => '#333333',
 	),
 	BX_THEME_SLUG . '_main_content_h3' => array(
-		'title' => esc_html__( 'H3 Header Color', 'basil' ),
+		'title' => __( 'H3 Header Color', 'basil' ),
 		'default' => '#333333',
 	),
 	BX_THEME_SLUG . '_main_content_h4' => array(
-		'title' => esc_html__( 'H4 Header Color', 'basil' ),
+		'title' => __( 'H4 Header Color', 'basil' ),
 		'default' => '#333333',
 	),
 	BX_THEME_SLUG . '_main_content_h5' => array(
-		'title' => esc_html__( 'H5 Header Color', 'basil' ),
+		'title' => __( 'H5 Header Color', 'basil' ),
 		'default' => '#333333',
 	),
 	BX_THEME_SLUG . '_main_content_h6' => array(
-		'title' => esc_html__( 'H6 Header Color', 'basil' ),
+		'title' => __( 'H6 Header Color', 'basil' ),
 		'default' => '#333333',
 	)
 );
@@ -966,7 +966,7 @@ endforeach;
     Typography
 --------------------------------------------------------------------------------------------------- */
 
-$options[] = array( 'title'             => esc_html__( 'Base Font', 'basil' ),
+$options[] = array( 'title'             => __( 'Base Font', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_default_font',
@@ -976,7 +976,7 @@ $options[] = array( 'title'             => esc_html__( 'Base Font', 'basil' ),
                     'choices'           => $bx_google_fonts,
 					'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'Base Text Size', 'basil' ),
+$options[] = array( 'title'             => __( 'Base Text Size', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_default_text_size',
@@ -986,7 +986,7 @@ $options[] = array( 'title'             => esc_html__( 'Base Text Size', 'basil'
                     'choices'           => $bx_font_sizes,
                     'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H1 Heading (Page Title)', 'basil' ),
+$options[] = array( 'title'             => __( 'H1 Heading (Page Title)', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h1_font',
@@ -996,7 +996,7 @@ $options[] = array( 'title'             => esc_html__( 'H1 Heading (Page Title)'
                     'choices'           => $bx_google_fonts,
 				'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H1 Size', 'basil' ),
+$options[] = array( 'title'             => __( 'H1 Size', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h1_text_size',
@@ -1006,7 +1006,7 @@ $options[] = array( 'title'             => esc_html__( 'H1 Size', 'basil' ),
                     'choices'           => $bx_adj_font_sizes,
                     'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H2 Heading', 'basil' ),
+$options[] = array( 'title'             => __( 'H2 Heading', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h2_font',
@@ -1016,7 +1016,7 @@ $options[] = array( 'title'             => esc_html__( 'H2 Heading', 'basil' ),
                     'choices'           => $bx_google_fonts,
 					'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H2 Size', 'basil' ),
+$options[] = array( 'title'             => __( 'H2 Size', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h2_text_size',
@@ -1026,7 +1026,7 @@ $options[] = array( 'title'             => esc_html__( 'H2 Size', 'basil' ),
                     'choices'           => $bx_adj_font_sizes,
                     'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H3 Heading', 'basil' ),
+$options[] = array( 'title'             => __( 'H3 Heading', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h3_font',
@@ -1036,7 +1036,7 @@ $options[] = array( 'title'             => esc_html__( 'H3 Heading', 'basil' ),
                     'choices'           => $bx_google_fonts,
 					'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H3 Size', 'basil' ),
+$options[] = array( 'title'             => __( 'H3 Size', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h3_text_size',
@@ -1046,7 +1046,7 @@ $options[] = array( 'title'             => esc_html__( 'H3 Size', 'basil' ),
                     'choices'           => $bx_adj_font_sizes,
                     'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H4 Heading', 'basil' ),
+$options[] = array( 'title'             => __( 'H4 Heading', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h4_font',
@@ -1056,7 +1056,7 @@ $options[] = array( 'title'             => esc_html__( 'H4 Heading', 'basil' ),
                     'choices'           => $bx_google_fonts,
 					'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H4 Size', 'basil' ),
+$options[] = array( 'title'             => __( 'H4 Size', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h4_text_size',
@@ -1066,7 +1066,7 @@ $options[] = array( 'title'             => esc_html__( 'H4 Size', 'basil' ),
                     'choices'           => $bx_adj_font_sizes,
                     'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H5 Heading', 'basil' ),
+$options[] = array( 'title'             => __( 'H5 Heading', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h5_font',
@@ -1076,7 +1076,7 @@ $options[] = array( 'title'             => esc_html__( 'H5 Heading', 'basil' ),
                     'choices'           => $bx_google_fonts,
 				'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H5 Size', 'basil' ),
+$options[] = array( 'title'             => __( 'H5 Size', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h5_text_size',
@@ -1086,7 +1086,7 @@ $options[] = array( 'title'             => esc_html__( 'H5 Size', 'basil' ),
                     'choices'           => $bx_adj_font_sizes,
                     'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H6 Heading', 'basil' ),
+$options[] = array( 'title'             => __( 'H6 Heading', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h6_font',
@@ -1096,7 +1096,7 @@ $options[] = array( 'title'             => esc_html__( 'H6 Heading', 'basil' ),
                     'choices'           => $bx_google_fonts,
 					'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'H6 Size', 'basil' ),
+$options[] = array( 'title'             => __( 'H6 Size', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_typography',
                     'id'                => BX_THEME_SLUG . '_h6_text_size',
@@ -1110,26 +1110,26 @@ $options[] = array( 'title'             => esc_html__( 'H6 Size', 'basil' ),
     Footer
 --------------------------------------------------------------------------------------------------- */
 
-$options[] = array( 'title'             => esc_html__( 'Footer', 'basil' ),
+$options[] = array( 'title'             => __( 'Footer', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_footer',
                     'id'                => BX_THEME_SLUG . '_footer_heading',
                     'option'            => 'section_heading',
                     'type'                   => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'Left Content', 'basil' ),
+$options[] = array( 'title'             => __( 'Left Content', 'basil' ),
                     'section'           => BX_THEME_SLUG . '_footer',
                     'id'                => BX_THEME_SLUG . '_footer_left_content',
                     'default'           => 'disabled',
                     'option'            => 'radio',
                     'choices'           => array(
-                         'disabled'               => esc_html__('Nothing','basil'),
-                        'text'                    => esc_html__('Text/HTML','basil'),
-                        'socials'            => esc_html__('Social Icons','basil')
+                         'disabled'               => __('Nothing','basil'),
+                        'text'                    => __('Text/HTML','basil'),
+                        'socials'            => __('Social Icons','basil')
                     ),
                          'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'Left Text', 'basil' ),
+$options[] = array( 'title'             => __( 'Left Text', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_footer',
                     'id'                => BX_THEME_SLUG . '_footer_left_text',
@@ -1139,19 +1139,19 @@ $options[] = array( 'title'             => esc_html__( 'Left Text', 'basil' ),
                     'input_attrs'       => array(),
                     'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'Right Content', 'basil' ),
+$options[] = array( 'title'             => __( 'Right Content', 'basil' ),
                     'section'           => BX_THEME_SLUG . '_footer',
                     'id'                => BX_THEME_SLUG . '_footer_right_content',
                     'default'           => 'disabled',
                     'option'            => 'radio',
                     'choices'           => array(
-                         'disabled'               => esc_html__('Nothing','basil'),
-                        'text'                    => esc_html__('Text/HTML','basil'),
-                        'socials'            => esc_html__('Social Icons','basil')
+                         'disabled'               => __('Nothing','basil'),
+                        'text'                    => __('Text/HTML','basil'),
+                        'socials'            => __('Social Icons','basil')
                     ),
                          'type'              => 'control' );
 
-$options[] = array( 'title'             => esc_html__( 'Right Text', 'basil' ),
+$options[] = array( 'title'             => __( 'Right Text', 'basil' ),
                     'description'       => '',
                     'section'           => BX_THEME_SLUG . '_footer',
                     'id'                => BX_THEME_SLUG . '_footer_right_text',
@@ -1166,7 +1166,7 @@ $options[] = array( 'title'             => esc_html__( 'Right Text', 'basil' ),
 /*
 
 // Text field - Example Panel - section 1
-$options[] = array( 'title'             => esc_html__( 'Text Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Text Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_id', // section
                     'id'                => BX_THEME_SLUG . 'text', // unique ID
@@ -1176,7 +1176,7 @@ $options[] = array( 'title'             => esc_html__( 'Text Field', 'basil' ), 
                     'type'              => 'control' ); // type = control
 
 // Textarea field - Example Panel - section 1
-$options[] = array( 'title'             => esc_html__( 'Textarea Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Textarea Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_id', // section
                     'id'                => BX_THEME_SLUG . 'textarea', // unique ID
@@ -1186,7 +1186,7 @@ $options[] = array( 'title'             => esc_html__( 'Textarea Field', 'basil'
                     'type'              => 'control' ); // type = control
 
 // Color Picker field - Example Panel - section 1
-$options[] = array( 'title'             => esc_html__( 'Color Picker Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Color Picker Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_id', // section
                     'id'                => BX_THEME_SLUG . 'color', // unique ID
@@ -1196,7 +1196,7 @@ $options[] = array( 'title'             => esc_html__( 'Color Picker Field', 'ba
                     'type'              => 'control' ); // type = control
 
 // Radio field - Example Panel - section 1
-$options[] = array( 'title'             => esc_html__( 'Radio Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Radio Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_id', // section
                     'id'                => BX_THEME_SLUG . 'radio', // unique ID
@@ -1211,7 +1211,7 @@ $options[] = array( 'title'             => esc_html__( 'Radio Field', 'basil' ),
                     'type'              => 'control' ); // type = control
 
 // Checkbox field - Example Panel - section 1
-$options[] = array( 'title'             => esc_html__( 'Checkbox Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Checkbox Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_id', // section
                     'id'                => BX_THEME_SLUG . 'checkbox', // unique ID
@@ -1221,7 +1221,7 @@ $options[] = array( 'title'             => esc_html__( 'Checkbox Field', 'basil'
                     'type'              => 'control' ); // type = control
 
 // Image Upload field - Example Panel - section 1
-$options[] = array( 'title'             => esc_html__( 'Image Upload Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Image Upload Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_id', // section
                     'id'                => BX_THEME_SLUG . 'image', // unique ID
@@ -1231,7 +1231,7 @@ $options[] = array( 'title'             => esc_html__( 'Image Upload Field', 'ba
                     'type'              => 'control' ); // type = control
 
 // File Upload field - Example Panel - section 1
-$options[] = array( 'title'             => esc_html__( 'File Upload Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'File Upload Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_id', // section
                     'id'                => BX_THEME_SLUG . 'file', // unique ID
@@ -1242,7 +1242,7 @@ $options[] = array( 'title'             => esc_html__( 'File Upload Field', 'bas
 
 
 // URL field - Example Panel - section 2
-$options[] = array( 'title'             => esc_html__( 'URL Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'URL Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_2', // section
                     'id'                => BX_THEME_SLUG . 'url', // unique ID
@@ -1252,7 +1252,7 @@ $options[] = array( 'title'             => esc_html__( 'URL Field', 'basil' ), /
                     'type'              => 'control' ); // type = control
 
 // Email field - Example Panel - section 2
-$options[] = array( 'title'             => esc_html__( 'Email Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Email Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_2', // section
                     'id'                => BX_THEME_SLUG . 'email', // unique ID
@@ -1262,7 +1262,7 @@ $options[] = array( 'title'             => esc_html__( 'Email Field', 'basil' ),
                     'type'              => 'control' ); // type = control
 
 // Password field - Example Panel - section 2
-$options[] = array( 'title'             => esc_html__( 'Password Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Password Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_2', // section
                     'id'                => BX_THEME_SLUG . 'password', // unique ID
@@ -1273,7 +1273,7 @@ $options[] = array( 'title'             => esc_html__( 'Password Field', 'basil'
 
 
 // Pages field - Example Panel 2 - section 3
-$options[] = array( 'title'             => esc_html__( 'Pages Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Pages Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_3', // section
                     'id'                => BX_THEME_SLUG . 'pages', // unique ID
@@ -1283,7 +1283,7 @@ $options[] = array( 'title'             => esc_html__( 'Pages Field', 'basil' ),
                     'type'              => 'control' ); // type = control
 
 // Categories field - Example Panel 2 - section 3
-$options[] = array( 'title'             => esc_html__( 'Categories Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Categories Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_3', // section
                     'id'                => BX_THEME_SLUG . 'categories', // unique ID
@@ -1293,7 +1293,7 @@ $options[] = array( 'title'             => esc_html__( 'Categories Field', 'basi
                     'type'              => 'control' ); // type = control
 
 // Tags field - Example Panel 2 - section 3
-$options[] = array( 'title'             => esc_html__( 'Tags Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Tags Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_3', // section
                     'id'                => BX_THEME_SLUG . 'tags', // unique ID
@@ -1303,7 +1303,7 @@ $options[] = array( 'title'             => esc_html__( 'Tags Field', 'basil' ), 
                     'type'              => 'control' ); // type = control
 
 // Post Types field - Example Panel 2 - section 3
-$options[] = array( 'title'             => esc_html__( 'Post Types Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Post Types Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_3', // section
                     'id'                => BX_THEME_SLUG . 'post_types', // unique ID
@@ -1313,7 +1313,7 @@ $options[] = array( 'title'             => esc_html__( 'Post Types Field', 'basi
                     'type'              => 'control' ); // type = control
 
 // Posts field - Example Panel 2 - section 3
-$options[] = array( 'title'             => esc_html__( 'Posts Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Posts Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_3', // section
                     'id'                => BX_THEME_SLUG . 'posts', // unique ID
@@ -1323,7 +1323,7 @@ $options[] = array( 'title'             => esc_html__( 'Posts Field', 'basil' ),
                     'type'              => 'control' ); // type = control
 
 // Users field - Example Panel 2 - section 3
-$options[] = array( 'title'             => esc_html__( 'Users Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Users Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_3', // section
                     'id'                => BX_THEME_SLUG . 'users', // unique ID
@@ -1333,7 +1333,7 @@ $options[] = array( 'title'             => esc_html__( 'Users Field', 'basil' ),
                     'type'              => 'control' ); // type = control
 
 // Menus field - Example Panel 2 - section 3
-$options[] = array( 'title'             => esc_html__( 'Menus Field', 'basil' ), // Control label
+$options[] = array( 'title'             => __( 'Menus Field', 'basil' ), // Control label
                     'description'       => '', // Control description
                     'section'           => BX_THEME_SLUG . 'section_3', // section
                     'id'                => BX_THEME_SLUG . 'menus', // unique ID

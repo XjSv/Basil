@@ -4,8 +4,8 @@ global $bx_options;
 
 /* Theme Specific Defaults */
 define( 'BX_THEME_SLUG', 'basil' );
-define( 'BX_THEME_VERSION', '2.0.4' );
-define( 'BASIL_CP_VERSION', '1.7.5.8' );
+define( 'BX_THEME_VERSION', '2.0.5' );
+define( 'BASIL_CP_VERSION', '1.7.6' );
 
 /* Theme Framework Defaults */
 define( 'BX_BASE_DIR', trailingslashit( get_template_directory() ) );
@@ -204,13 +204,13 @@ function basil_the_title( $before, $after ) {
 
     if ( !in_the_loop() && is_search() ):
         if ( have_posts() ) :
-            echo $before . sprintf( esc_html__('Search Results for: %s', 'basil' ), '<span>' . get_search_query() . '</span>' ) . $after;
+            echo $before . sprintf( __('Search Results for: %s', 'basil' ), '<span>' . get_search_query() . '</span>' ) . $after;
         else :
-            echo $before . esc_html__( 'Nothing Found', 'basil' ) . $after;
+            echo $before . __( 'Nothing Found', 'basil' ) . $after;
         endif;
     else:
 
-        global $bx_options,$post;
+        global $bx_options, $post;
 
         if ( empty($post) )
             return;
@@ -221,15 +221,15 @@ function basil_the_title( $before, $after ) {
 
         if ( !in_the_loop() && is_archive() ):
             if ( $title_setting == 'enabled' || !$title_setting && $default_option == 'enabled' ):
-                the_archive_title( $before, $after );
+                esc_html(the_archive_title($before, $after));
             endif;
         elseif ( $title_setting == 'enabled' || !$title_setting && $default_option == 'enabled' ):
-            the_title( $before, $after );
+            echo $before . esc_html( the_title('', '', false) ) . $after;
         endif;
 
     endif;
-    return false;
 
+    return false;
 }
 
 function basil_page_thumbnail() {
@@ -302,11 +302,11 @@ function basil_entry_meta( $date_only = false ) {
         );
 
         echo sprintf( '<span class="posted-on"><span class="screen-reader-text">%s </span><a href="%s" rel="bookmark">%s</a></span> %s <span class="byline"><span class="author vcard"><span class="screen-reader-text">%s </span><a class="url fn n" href="%s">%s</a></span></span>',
-            esc_html__( 'Posted on', 'basil' ),
+            __( 'Posted on', 'basil' ),
             esc_url( get_permalink() ),
             $time_string,
             esc_html_x( 'by', 'by Author Name', 'basil' ),
-            esc_html__( 'Author', 'basil' ),
+            __( 'Author', 'basil' ),
             esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
             get_the_author()
         );
