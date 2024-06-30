@@ -9,6 +9,7 @@ Requires PHP: 7.4
 
 = 2.0.5 =
 * **FIX:** Addressed the CVE-2024-37308 security vulnerability thanks to [re-alter](https://github.com/re-alter).
+* **TWEAK:** Preformance improvements.
 
 = 2.0.4 =
 * **FIX:** Fixed Widgets not working in Admin > Appearance > Widgets.
